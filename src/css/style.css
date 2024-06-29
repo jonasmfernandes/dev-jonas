@@ -56,7 +56,7 @@ header .navbar-menu .ri-menu-fill {
 }
 .hero .hero-container h2 {
   color: #eeeeee;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .hero .hero-container p {
   font-family: "Poppins", sans-serif;
@@ -84,4 +84,39 @@ header .navbar-menu .ri-menu-fill {
   color: #6e6e6e;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  padding: 0% 22px;
+}
+.projects p {
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 10%;
+}
+.projects .project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.projects .project-content img {
+  border-radius: 10px;
+  width: 90%;
+  height: 25vh;
+  transition: 0.2s;
+}
+.projects .project-content img:hover {
+  box-shadow: 5px 5px 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.02);
+}
+.projects .project-content h2 {
+  color: #eeeeee;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
