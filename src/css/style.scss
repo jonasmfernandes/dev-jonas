@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$main-font: "IBM Plex Sans", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+}
+$main-color: #eeeeee;
+$secondary-color: #a8a8a8;
+$background-color: #111111;
+
+body {
+    background-color: $background-color;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 22px;
+    .logo {
+        color: $main-color;
+        transition: 0.2s;
+        &:hover {
+            color: $main-color;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+    }
+    .navbar-menu {
+        a {
+            text-decoration: none;
+            color: $secondary-color;
+            font-size: 1.3em;
+            gap: 20px;
+            transition: 0.2s;
+            &:hover {
+                cursor: pointer;
+                color: $main-color;
+                transition: 0.2s;
+            }
+        }
+        .ri-menu-fill {
+            margin-left: 20px;
+        }
+    }
+}
+
+.hero {
+    background-color: #111111;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2 {
+            color: $main-color;
+            font-size: 2rem;
+        }
+        p {
+            font-family: $secondary-font;
+            color: $secondary-color;
+            font-weight: 400;
+        }
+
+        .btn-container {
+            .btn {
+                border-radius: 10px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
