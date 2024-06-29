@@ -12,6 +12,7 @@ $secondary-font: "Poppins", sans-serif;
 $main-color: #eeeeee;
 $secondary-color: #a8a8a8;
 $background-color: #111111;
+$terciary-color: #1c1c1c;
 
 body {
     background-color: $background-color;
@@ -21,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3% 22px;
+    padding: 2.2% 22px;
     .logo {
         color: $main-color;
         transition: 0.2s;
@@ -52,15 +53,15 @@ header {
 
 .hero {
     background-color: #111111;
-    height: 50vh;
+    height: 55vh;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    padding: 0px 22px;
+    padding: 0% 22px;
     .hero-container {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
         h2 {
             color: $main-color;
             font-size: 2rem;
@@ -69,12 +70,28 @@ header {
             font-family: $secondary-font;
             color: $secondary-color;
             font-weight: 400;
+            font-size: 0.95rem;
+            width: 100%;
         }
 
         .btn-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
             .btn {
-                border-radius: 10px;
-                padding: 10px 20px;
+                border-radius: 20px;
+                padding: 4px 15px;
+                border: none;
+                background-color: $terciary-color; 
+                color: $main-color;
+                display: flex;
+                align-items: center;
+                i {
+                    padding-left: 5px;
+                    color: #6e6e6e;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                }
             }
         }
     }
