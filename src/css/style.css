@@ -26,6 +26,9 @@ header .logo:hover {
   transition: 0.2s;
   cursor: pointer;
 }
+header .navbar-menu {
+  display: flex;
+}
 header .navbar-menu a {
   text-decoration: none;
   color: #a8a8a8;
@@ -37,6 +40,52 @@ header .navbar-menu a:hover {
   cursor: pointer;
   color: #eeeeee;
   transition: 0.2s;
+}
+header .navbar-menu .dropdown {
+  position: relative;
+}
+header .navbar-menu .dropdown .select .selected {
+  font-size: 20px;
+  color: #a8a8a8;
+}
+header .navbar-menu .dropdown .select .selected:active {
+  color: #eeeeee;
+}
+header .navbar-menu .dropdown .menu {
+  list-style: none;
+  position: absolute;
+  top: 2.3em;
+  transition: 2s;
+  right: -200%;
+  width: 400%;
+  transform: translateX(-50%);
+  opacity: 0;
+  display: none;
+  z-index: 1;
+}
+header .navbar-menu .dropdown .menu li {
+  padding: 10px 20px;
+  background-color: #0A0A0A;
+  cursor: pointer;
+  color: #eeeeee;
+}
+header .navbar-menu .dropdown .menu li:hover {
+  background-color: #E5E7EB;
+}
+header .navbar-menu .dropdown .menu .first-link {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+header .navbar-menu .dropdown .menu .last-link {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header .navbar-menu .dropdown .menu .active {
+  background-color: #1c1c1c;
+}
+header .navbar-menu .dropdown .menu-open {
+  display: block;
+  opacity: 1;
 }
 header .navbar-menu .ri-menu-fill {
   margin-left: 20px;

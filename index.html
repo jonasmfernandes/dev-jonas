@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Jonas Montiero</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
 </head>
 <body>
+    
     <header>
             <h1 class="logo">JM</h1>
             <nav class="navbar-menu">
                 <a href=""><i class="ri-moon-fill"></i></a>
-                <a href=""><i class="ri-menu-fill"></i></a>
+                <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
+                 <div class="dropdown">
+                    <div class="select">
+                        <span class="selected"><i class="ri-menu-fill"></i></span>
+                        <div class="caret"></div>
+                    </div>
+
+                    <ul class="menu">
+                        <li class="first-link">About</li>
+                        <li>Blog</li>
+                        <li>Sandbox</li>
+                        <li class="last-link">Gear</li>
+                        <!-- <li class="active">menu</li> -->
+                    </ul>
+                 </div>
             </nav>
     </header>
+
     <main class="hero">
         <div class="hero-container">
             <h2>hey, Jonas here!</h2>
@@ -46,5 +60,6 @@
             </div>
         </div>
     </section>
+    <script src="src/js/script.js"></script>
 </body>
 </html>
