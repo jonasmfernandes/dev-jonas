@@ -47,15 +47,22 @@ header .navbar-menu .dropdown {
 header .navbar-menu .dropdown .select .selected {
   font-size: 20px;
   color: #a8a8a8;
+  cursor: pointer;
+  transition: 0.2s;
 }
 header .navbar-menu .dropdown .select .selected:active {
   color: #eeeeee;
 }
+header .navbar-menu .dropdown .select .selected:hover {
+  color: #eeeeee;
+  transition: 0.2s;
+}
 header .navbar-menu .dropdown .menu {
+  cursor: pointer;
   list-style: none;
   position: absolute;
   top: 2.3em;
-  transition: 2s;
+  transition: 0.2s;
   right: -200%;
   width: 400%;
   transform: translateX(-50%);
@@ -67,10 +74,13 @@ header .navbar-menu .dropdown .menu li {
   padding: 10px 20px;
   background-color: #0A0A0A;
   cursor: pointer;
+}
+header .navbar-menu .dropdown .menu li a {
   color: #eeeeee;
+  font-size: 1em;
 }
 header .navbar-menu .dropdown .menu li:hover {
-  background-color: #E5E7EB;
+  background-color: #191919;
 }
 header .navbar-menu .dropdown .menu .first-link {
   border-top-left-radius: 10px;
@@ -83,9 +93,18 @@ header .navbar-menu .dropdown .menu .last-link {
 header .navbar-menu .dropdown .menu .active {
   background-color: #1c1c1c;
 }
+header .navbar-menu .dropdown .menu .active:hover {
+  color: #0a0a0a;
+}
 header .navbar-menu .dropdown .menu-open {
   display: block;
   opacity: 1;
+}
+header .navbar-menu .dropdown .menu-open:hover {
+  color: #0a0a0a;
+}
+header .navbar-menu .dropdown .show {
+  display: block;
 }
 header .navbar-menu .ri-menu-fill {
   margin-left: 20px;
@@ -127,12 +146,18 @@ header .navbar-menu .ri-menu-fill {
   color: #eeeeee;
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+.hero .hero-container .btn-container .btn a {
+  text-decoration: none;
+  color: #eeeeee;
 }
 .hero .hero-container .btn-container .btn i {
   padding-left: 5px;
   color: #6e6e6e;
   font-size: 1.2rem;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .projects {

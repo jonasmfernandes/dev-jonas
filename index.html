@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
     <title>Jonas Montiero</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
-
-</head>
-<body>
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-            <h1 class="logo">JM</h1>
-            <nav class="navbar-menu">
-                <a href=""><i class="ri-moon-fill"></i></a>
-                <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
-                 <div class="dropdown">
-                    <div class="select">
-                        <span class="selected"><i class="ri-menu-fill"></i></span>
-                        <div class="caret"></div>
-                    </div>
+      <h1 class="logo">JM</h1>
+      <nav class="navbar-menu">
+        <a href=""><i class="ri-moon-fill"></i></a>
+        <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected"><i class="ri-menu-fill"></i></span>
+            <div class="caret"></div>
+          </div>
 
-                    <ul class="menu">
-                        <li class="first-link">About</li>
-                        <li>Blog</li>
-                        <li>Sandbox</li>
-                        <li class="last-link">Gear</li>
-                        <!-- <li class="active">menu</li> -->
-                    </ul>
-                 </div>
-            </nav>
+          <ul class="menu">
+            <li class="first-link"><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="sandbox.html" target="_blank">Sandbox</a></li>
+            <li class="last-link"> <a href="gear.html" target="_blank">Gear</a></li>
+            <!-- <li class="active">menu</li> -->
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="hero">
-        <div class="hero-container">
-            <h2>hey, Jonas here!</h2>
-            <p>I am a software developer who builds for the web with a design-oriented approach. In addiction to coding, I write some posts where i focus on tech    and productivity.</p>
-            <div class="btn-container">
-            <button class="btn">Linkedin <i class="ri-arrow-right-line"></i></button>
-            <button class="btn">Resume <i class="ri-arrow-right-line"></i></button>
-             <button class="btn">IG <i class="ri-arrow-right-line"></i></button> 
-            </div> 
+      <div class="hero-container">
+        <h2>hey, Jonas here!</h2>
+        <p>
+          I am a software developer who builds for the web with a
+          design-oriented approach. In addiction to coding, I write some posts
+          where i focus on tech and productivity.
+        </p>
+        <div class="btn-container">
+          <button class="btn">
+            <a
+              href="https://www.linkedin.com/in/jonas-monteiro-fernandes/"
+              target="_blank"
+              >Linkedin</a
+            >
+            <i class="ri-arrow-right-line"></i>
+          </button>
+          <button class="btn">
+            <a
+              href="assets/curriculum.pdf"
+              download="curriculum.pdf"
+              target="_blank"
+              >Resume</a
+            >
+            <i class="ri-arrow-right-line"></i>
+          </button>
+          <button class="btn">IG <i class="ri-arrow-right-line"></i></button>
         </div>
+      </div>
     </main>
 
     <section class="projects">
-        <div class="projects-container">
-            <p>Pinned Projects</p>
-            <div class="project-content">
-                <img src="assets/Group 1.png" alt="">
-                <h2>COVID-19 Dashboard</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, placeat?</p>
-            </div>
-
-            <div class="project-content">
-                <img src="assets/Group 1.png" alt="">
-                <h2>COVID-19 Dashboard</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, placeat?</p>
-            </div>
+      <div class="projects-container">
+        <p>Pinned Projects</p>
+        <div class="project-content">
+          <img src="assets/Group 1.png" alt="" />
+          <h2>COVID-19 Dashboard</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+            placeat?
+          </p>
         </div>
+
+        <div class="project-content">
+          <img src="assets/Group 1.png" alt="" />
+          <h2>COVID-19 Dashboard</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+            placeat?
+          </p>
+        </div>
+      </div>
     </section>
     <script src="src/js/script.js"></script>
-</body>
+  </body>
 </html>

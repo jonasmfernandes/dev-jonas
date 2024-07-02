@@ -6,7 +6,7 @@ dropdowns.forEach(dropdown => {
     const menu = document.querySelector('.menu')
     const options = document.querySelectorAll('.menu li')
     const selected = document.querySelectorAll('.selected')
-
+    
     select.addEventListener('click', () => {
         select.classList.toggle('selected-clicked')
         caret.classList.toggle('caret-rotate')
@@ -25,6 +25,24 @@ dropdowns.forEach(dropdown => {
         })
     })
 })
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const select = document.querySelector('.select');
+    const menu = document.querySelector('.menu');
+
+    select.addEventListener('click', function(event) {
+        event.stopPropagation();
+        menu.classList.toggle('show');
+    });
+
+    window.addEventListener('click', function(event) {
+        if (!select.contains(event.target)) {
+            menu.classList.remove('show');
+        }
+    });
+});
+
+
 
 console.log('ta funcionando?')
 console.log('ta')
