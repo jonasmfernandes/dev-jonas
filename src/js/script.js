@@ -24,25 +24,12 @@ dropdowns.forEach(dropdown => {
             option.classList.add('active')
         })
     })
-})
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    const select = document.querySelector('.select');
-    const menu = document.querySelector('.menu');
-
-    select.addEventListener('click', function(event) {
-        event.stopPropagation();
-        menu.classList.toggle('show');
-    });
-
     window.addEventListener('click', function(event) {
         if (!select.contains(event.target)) {
-            menu.classList.remove('show');
+            menu.classList.remove('menu-open');
         }
     });
-});
-
-
+})
 
 console.log('ta funcionando?')
 console.log('ta')

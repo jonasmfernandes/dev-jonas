@@ -45,6 +45,7 @@ header .navbar-menu .dropdown {
   position: relative;
 }
 header .navbar-menu .dropdown .select .selected {
+  margin-left: 5px;
   font-size: 20px;
   color: #a8a8a8;
   cursor: pointer;
@@ -72,7 +73,7 @@ header .navbar-menu .dropdown .menu {
 }
 header .navbar-menu .dropdown .menu li {
   padding: 10px 20px;
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
   cursor: pointer;
 }
 header .navbar-menu .dropdown .menu li a {
@@ -112,7 +113,7 @@ header .navbar-menu .ri-menu-fill {
 
 .hero {
   background-color: #111111;
-  height: 55vh;
+  height: 47vh;
   display: flex;
   align-items: center;
   padding: 0% 22px;
@@ -193,4 +194,123 @@ header .navbar-menu .ri-menu-fill {
 .projects .project-content h2 {
   color: #eeeeee;
   font-size: 1rem;
+}
+
+.hero-about {
+  background-color: #111111;
+  height: 90vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0% 22px;
+}
+.hero-about .hero-container-about {
+  display: flex;
+  flex-direction: column;
+}
+.hero-about .hero-container-about h2 {
+  color: #eeeeee;
+  font-size: 1.8rem;
+}
+.hero-about .hero-container-about p {
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+}
+.hero-about .container-photo {
+  margin-left: 15%;
+  padding-top: 20px;
+}
+.hero-about .container-photo img {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.text-about {
+  display: flex;
+  align-items: center;
+  padding: 0% 22px;
+}
+.text-about .about-container h3 {
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.text-about .about-container p {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.connect .connect-container {
+  margin-top: 10%;
+  padding: 0% 22px;
+}
+.connect .connect-container h2 {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+.connect .connect-container .connect-container-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.connect .connect-container .connect-container-btn button {
+  width: 87vw;
+  height: 8vh;
+  border-radius: 10px;
+  border: none;
+  background-color: #191919;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  gap: 8px;
+  cursor: pointer;
+}
+.connect .connect-container .connect-container-btn button .ri-linkedin-box-fill,
+.connect .connect-container .connect-container-btn button .ri-github-fill,
+.connect .connect-container .connect-container-btn button .ri-instagram-line {
+  font-size: 25px;
+  color: #eeeeee;
+  padding-left: 17px;
+}
+.connect .connect-container .connect-container-btn button .ri-arrow-right-line {
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  font-size: 20px;
+  color: #eeeeee;
+}
+.connect .connect-container .connect-container-btn button a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.work .work-container {
+  margin-top: 10%;
+  padding: 0% 22px;
+}
+.work .work-container h2 {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+.work .work-container p {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 5%;
 }/*# sourceMappingURL=style.css.map */

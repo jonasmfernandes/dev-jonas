@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Jonas Montiero</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">JM</h1>
+      <nav class="navbar-menu">
+        <a href=""><i class="ri-moon-fill"></i></a>
+        <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected"><i class="ri-menu-fill"></i></span>
+            <div class="caret"></div>
+          </div>
+
+          <ul class="menu">
+            <li class="first-link"><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="sandbox.html" target="_blank">Sandbox</a></li>
+            <li class="last-link"> <a href="gear.html" target="_blank">Gear</a></li>
+            <!-- <li class="active">menu</li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="hero-about">
+      <div class="hero-container-about">
+        <h2>About</h2>
+        <p>
+          A glimpse into me.
+        </p>
+            <div class="container-photo">
+                <img src="assets/professional-photo.jpeg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <section class="text-about">
+      <div class="about-container">
+        <h3>About</h3>
+        <p>Hi, I'm Jonas , born in Brazil. I have been coding for 2 years. As a software developer, I specialize in front-end web development and design.</p>
+        <p>In addition to coding, I like to write on medium, about technology, coding and personal development.</p>
+        <p>When I'm not at my desk, I am probably lifting weights, with my girlfriend or reading some good books.</p>
+        <!-- <div class="project-content">
+          <img src="assets/Group 1.png" alt="" />
+          <h2>COVID-19 Dashboard</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+            placeat?
+          </p>
+        </div> -->
+
+        <!-- <div class="project-content">
+          <img src="assets/Group 1.png" alt="" />
+          <h2>COVID-19 Dashboard</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+            placeat?
+          </p>
+        </div> -->
+      </div>
+    </section>
     
-</body>
+    <section class="connect">
+        <div class="connect-container">
+            <h2>Connect</h2>
+            <div class="connect-container-btn">
+                <button class="btn">
+                    <i class="ri-linkedin-box-fill"></i>
+                    <a href="#">LinkedIn</a>
+                    <div class="arrow">
+                        <i class="ri-arrow-right-line"></i> 
+                    </div>
+                  </button>
+
+                  <button class="btn">
+                    <i class="ri-github-fill"></i>
+                    <a href="#">Github</a>
+                    <i class="ri-arrow-right-line"></i> 
+                  </button>
+
+                  <button class="btn">
+                    <i class="ri-instagram-line"></i>
+                    <a href="#">Instagram</a>
+                    <i class="ri-arrow-right-line"></i> 
+                  </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="work-container">
+            <h2>Work</h2>
+            <p>I specialize in React, web development, UI/UX and motion design. But I am always learning new things. Here are some of the places I have worked. </p>
+        </div>
+    </section>
+    <script src="src/js/script.js"></script>
+  </body>
 </html>
