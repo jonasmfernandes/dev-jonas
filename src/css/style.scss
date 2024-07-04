@@ -24,12 +24,10 @@ header {
   justify-content: space-between;
   padding: 2.2% 22px;
   .logo {
-    color: $main-color;
-    transition: 0.2s;
-    &:hover {
+    a {
       color: $main-color;
-      transition: 0.2s;
       cursor: pointer;
+      text-decoration: none;
     }
   }
 
@@ -340,32 +338,66 @@ header {
 }
 
 .work {
-    .work-container {
-            margin-top: 10%;
-            padding: 0% 22px;
-            h2 {
-              color: $secondary-color;
-              font-size: 1rem;
-              font-weight: 400;
-              margin-bottom: 5%;
-             }
-             p {
-                color: $main-color;
-                font-weight: 400;
-                font-size: 1rem;
-                // width: 100%;
-                margin-bottom: 5%;
-              }
-}
-
-.place-container {
-    .img-place {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: wheat;
+  margin-bottom: 20%;
+  .work-container {
+    margin-top: 10%;
+    padding: 0% 22px;
+    h2 {
+      color: $secondary-color;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 5%;
     }
-}
+    p {
+      color: $main-color;
+      font-weight: 400;
+      font-size: 1rem;
+      // width: 100%;
+      margin-bottom: 5%;
+    }
+  }
+
+  .place-container {
+    margin-top: 10%;
+    padding: 0% 22px;
+    display: flex;
+    gap: 10px;
+    .img-place-b2x {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .text-place {
+      position: relative;
+      h2 {
+        color: $main-color;
+        font-weight: 400;
+        font-size: 1rem;
+        // width: 100%;
+        margin-bottom: 3%;
+      }
+      p {
+        color: $secondary-color;
+        font-size: 1rem;
+        font-weight: 400;
+        // margin-bottom: 5%;
+      }
+      h3 {
+        position: absolute;
+        left: 45vw;
+        top: 0;
+        color: $secondary-color;
+        font-weight: 400;
+        font-size: 1rem;
+        width: 100%;
+      }
+
+      .h3-b2x {
+        left: 56vw;
+      }
+    }
+  }
 }
 @media (min-width: 600px) {
 }

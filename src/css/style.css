@@ -17,14 +17,10 @@ header {
   justify-content: space-between;
   padding: 2.2% 22px;
 }
-header .logo {
+header .logo a {
   color: #eeeeee;
-  transition: 0.2s;
-}
-header .logo:hover {
-  color: #eeeeee;
-  transition: 0.2s;
   cursor: pointer;
+  text-decoration: none;
 }
 header .navbar-menu {
   display: flex;
@@ -298,6 +294,9 @@ header .navbar-menu .ri-menu-fill {
   font-size: 1rem;
 }
 
+.work {
+  margin-bottom: 20%;
+}
 .work .work-container {
   margin-top: 10%;
   padding: 0% 22px;
@@ -314,9 +313,40 @@ header .navbar-menu .ri-menu-fill {
   font-size: 1rem;
   margin-bottom: 5%;
 }
-.work .place-container .img-place {
+.work .place-container {
+  margin-top: 10%;
+  padding: 0% 22px;
+  display: flex;
+  gap: 10px;
+}
+.work .place-container .img-place-b2x {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: wheat;
+}
+.work .place-container .text-place {
+  position: relative;
+}
+.work .place-container .text-place h2 {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+.work .place-container .text-place p {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.work .place-container .text-place h3 {
+  position: absolute;
+  left: 45vw;
+  top: 0;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+}
+.work .place-container .text-place .h3-b2x {
+  left: 56vw;
 }/*# sourceMappingURL=style.css.map */
