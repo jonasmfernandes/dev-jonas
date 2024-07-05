@@ -149,6 +149,7 @@ header .navbar-menu .ri-menu-fill {
 .hero .hero-container .btn-container .btn a {
   text-decoration: none;
   color: #eeeeee;
+  font-size: 1rem;
 }
 .hero .hero-container .btn-container .btn i {
   padding-left: 5px;
