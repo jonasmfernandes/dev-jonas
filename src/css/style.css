@@ -9,6 +9,7 @@
 
 body {
   background-color: #111111;
+  animation: openTransition 0.3s;
 }
 
 header {
@@ -333,6 +334,13 @@ header .navbar-menu .ri-menu-fill {
   font-size: 1rem;
   margin-bottom: 3%;
 }
+.work .place-container .text-place h2 a {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 3%;
+  text-decoration: none;
+}
 .work .place-container .text-place p {
   color: #a8a8a8;
   font-size: 1rem;
@@ -350,4 +358,15 @@ header .navbar-menu .ri-menu-fill {
 .work .place-container .text-place .h3-b2x {
   left: 57vw;
   width: 50%;
+}
+
+@keyframes openTransition {
+  from {
+    opacity: 0;
+    transform: translateY(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=style.css.map */

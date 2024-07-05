@@ -16,6 +16,7 @@ $terciary-color: #1c1c1c;
 
 body {
   background-color: $background-color;
+  animation: openTransition 0.3s;
 }
 
 header {
@@ -376,6 +377,15 @@ header {
         font-size: 1rem;
         // width: 100%;
         margin-bottom: 3%;
+
+        a {
+            color: $main-color;
+        font-weight: 400;
+        font-size: 1rem;
+        // width: 100%;
+        margin-bottom: 3%;
+        text-decoration: none;
+        }
       }
       p {
         color: $secondary-color;
@@ -400,6 +410,21 @@ header {
     }
   }
 }
+
+// KEYFRAMES
+
+@keyframes openTransition {
+    from {
+        opacity: 0;
+        transform: translateY(180deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media (min-width: 600px) {
 }
 
