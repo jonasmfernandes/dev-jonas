@@ -22,7 +22,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.2% 22px;
+  padding: 2.2% 6vw;
   .logo {
     a {
       color: $main-color;
@@ -138,7 +138,7 @@ header {
   display: flex;
   // justify-content: center;
   align-items: center;
-  padding: 0% 22px;
+  padding: 0% 6vw;
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -189,7 +189,7 @@ header {
   display: flex;
   // justify-content: center;
   align-items: center;
-  padding: 0% 22px;
+  padding: 0% 6vw;
 
   p {
     font-family: $secondary-font;
@@ -205,7 +205,7 @@ header {
     gap: 12px;
     img {
       border-radius: 10px;
-      width: 90%;
+      width: 97%;
       height: 25vh;
       transition: 0.2s;
       &:hover {
@@ -229,7 +229,7 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 0% 22px;
+  padding: 0% 6vw;
 
   .hero-container-about {
     display: flex;
@@ -262,7 +262,7 @@ header {
   display: flex;
   // justify-content: center;
   align-items: center;
-  padding: 0% 22px;
+  padding: 0% 6vw;
 
   .about-container {
     h3 {
@@ -287,7 +287,7 @@ header {
 .connect {
   .connect-container {
     margin-top: 10%;
-    padding: 0% 22px;
+    padding: 0% 6vw;
     h2 {
       color: $secondary-color;
       font-size: 1rem;
@@ -359,7 +359,7 @@ header {
 
   .place-container {
     margin-top: 10%;
-    padding: 0% 22px;
+    padding: 0% 6vw;
     display: flex;
     gap: 10px;
     .img-place-b2x {
@@ -385,16 +385,16 @@ header {
       }
       h3 {
         position: absolute;
-        left: 45vw;
-        top: 0;
+        left: 46vw;
+        top: 0; 
         color: $secondary-color;
         font-weight: 400;
         font-size: 1rem;
-        width: 100%;
+        width: 80%;
       }
 
       .h3-b2x {
-        left: 56vw;
+        left: 57vw;
       }
     }
   }
