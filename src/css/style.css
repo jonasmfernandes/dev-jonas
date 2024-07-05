@@ -360,6 +360,48 @@ header .navbar-menu .ri-menu-fill {
   width: 50%;
 }
 
+.hero-sandbox {
+  background-color: #111111;
+  height: 35vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0% 6vw;
+}
+.hero-sandbox .hero-container-sandbox .sandbox-text p {
+  color: #5f5f5f;
+  margin-top: 10%;
+}
+.hero-sandbox .hero-container-sandbox h2 {
+  color: #eeeeee;
+  font-size: 1.8rem;
+}
+.hero-sandbox .hero-container-sandbox p {
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.sandbox-things {
+  background-color: #111111;
+  height: 37vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 0% 6vw;
+  gap: 10px;
+}
+.sandbox-things h2 {
+  color: #eeeeee;
+  font-size: 1rem;
+}
+.sandbox-things p {
+  color: #a8a8a8;
+  margin-bottom: 5%;
+}
+
 @keyframes openTransition {
   from {
     opacity: 0;
