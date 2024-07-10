@@ -34,6 +34,10 @@ header {
 
   .navbar-menu {
     display: flex;
+
+    .menu-tablet {
+        display: none;
+    }
     a {
       text-decoration: none;
       color: $secondary-color;
@@ -477,6 +481,31 @@ header {
 }
 
 @media (min-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .navbar-menu {
+            display: flex;
+            .menu-tablet {
+                display: flex;
+                text-decoration: none;
+                list-style: none;
+                gap: 20px;
+                .first-link-tablet {
+                    margin-left: 25vw;
+                }
+
+                .last-link-tablet {
+                    margin-right: 25vw;
+                }
+            }
+            .dropdown {
+                display: none;
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
