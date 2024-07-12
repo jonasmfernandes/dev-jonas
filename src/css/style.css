@@ -132,7 +132,7 @@ header .navbar-menu .ri-menu-fill {
   color: #a8a8a8;
   font-weight: 400;
   font-size: 0.95rem;
-  width: 100%;
+  max-width: 540px;
 }
 .hero .hero-container .btn-container {
   display: flex;
@@ -160,6 +160,16 @@ header .navbar-menu .ri-menu-fill {
   font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
+}
+
+.projects-title {
+  padding: 0% 6vw;
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 10%;
 }
 
 .projects {
@@ -416,28 +426,46 @@ header .navbar-menu .ri-menu-fill {
     transform: translateY(0);
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5.2% 10vw 0% 10vw;
   }
   header .navbar-menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   header .navbar-menu .menu-tablet {
     display: flex;
     text-decoration: none;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
+  }
+  header .navbar-menu .menu-tablet li a {
+    font-size: 1rem;
+    transition: 0.1s;
+  }
+  header .navbar-menu .menu-tablet li a:hover {
+    color: #eeeeee;
+    transition: 0.1s;
   }
   header .navbar-menu .menu-tablet .first-link-tablet {
-    margin-left: 25vw;
+    margin-left: 27vw;
   }
   header .navbar-menu .menu-tablet .last-link-tablet {
-    margin-right: 25vw;
+    margin-right: 27vw;
   }
   header .navbar-menu .dropdown {
     display: none;
+  }
+  .projects-title {
+    margin-bottom: 3%;
+  }
+  .projects .projects-container {
+    display: flex;
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
