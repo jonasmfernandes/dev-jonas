@@ -1,4 +1,6 @@
 const dropdowns = document.querySelectorAll('.dropdown')
+const imgs = document.getElementsByClassName("project-content")
+const img = document.querySelectorAll(".project-content img")
 
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
@@ -30,6 +32,15 @@ dropdowns.forEach(dropdown => {
         }
     });
 })
-
+let idx = 0
+function carrousel(){
+    idx++
+    if(idx > img.length - 1){
+        idx = 0
+    }
+    imgs.style.transform = `translateX(${-idx * 500}px)`
+}
+setInterval(carrousel, 1800)
 console.log('ta funcionando?')
 console.log('ta')
+console.log(img.length)

@@ -215,27 +215,34 @@ header {
     width: 100%;
     margin-bottom: 10%;
   }
-  .project-content {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    img {
-      border-radius: 10px;
-      width: 97%;
-      height: 25vh;
-      transition: 0.2s;
-      &:hover {
-        box-shadow: 5px 5px 15px;
-        cursor: pointer;
+  .projects-container {
+    overflow: hidden;
+    .project-content {
+      transition: transform 0.5s ease-in-out;
+      transform: translateX(0);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      img {
+        object-fit: cover;
+        border-radius: 10px;
+        // width: 97%;
+        height: 20vh;
         transition: 0.2s;
-        transform: scale(1.02);
+        &:hover {
+          box-shadow: 5px 5px 15px;
+          cursor: pointer;
+          transition: 0.2s;
+          transform: scale(1.02);
+        }
+      }
+      h2 {
+        color: $main-color;
+        font-size: 1rem;
       }
     }
-    h2 {
-      color: $main-color;
-      font-size: 1rem;
-    }
   }
+  
 }
 // ABOUT SECTION
 

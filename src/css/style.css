@@ -185,24 +185,30 @@ header .navbar-menu .ri-menu-fill {
   width: 100%;
   margin-bottom: 10%;
 }
-.projects .project-content {
+.projects .projects-container {
+  overflow: hidden;
+}
+.projects .projects-container .project-content {
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.projects .project-content img {
+.projects .projects-container .project-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
-  width: 97%;
-  height: 25vh;
+  height: 20vh;
   transition: 0.2s;
 }
-.projects .project-content img:hover {
+.projects .projects-container .project-content img:hover {
   box-shadow: 5px 5px 15px;
   cursor: pointer;
   transition: 0.2s;
   transform: scale(1.02);
 }
-.projects .project-content h2 {
+.projects .projects-container .project-content h2 {
   color: #eeeeee;
   font-size: 1rem;
 }
