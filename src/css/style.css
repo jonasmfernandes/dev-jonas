@@ -260,6 +260,9 @@ header .navbar-menu .ri-menu-fill {
   margin-bottom: 5%;
 }
 .text-about .about-container p {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
   color: #eeeeee;
   font-weight: 400;
   font-size: 1rem;
@@ -283,6 +286,9 @@ header .navbar-menu .ri-menu-fill {
   gap: 20px;
 }
 .connect .connect-container .connect-container-btn button {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
   width: 87vw;
   height: 8vh;
   border-radius: 10px;
@@ -329,12 +335,18 @@ header .navbar-menu .ri-menu-fill {
   margin-bottom: 5%;
 }
 .work .work-container p {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
   color: #eeeeee;
   font-weight: 400;
   font-size: 1rem;
   margin-bottom: 5%;
 }
 .work .place-container {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
   margin-top: 10%;
   padding: 0% 6vw;
   display: flex;
@@ -432,11 +444,24 @@ header .navbar-menu .ri-menu-fill {
     transform: translateY(0);
   }
 }
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
 @media (min-width: 768px) {
   body {
     margin: 0 auto;
     max-width: 768px;
     padding: 0px 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
   }
   header {
     display: flex;

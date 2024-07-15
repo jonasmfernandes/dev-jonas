@@ -192,13 +192,13 @@ header {
 }
 
 .projects-title {
-    padding: 0% 6vw;
-    font-family: $secondary-font;
-    color: $secondary-color;
-    font-weight: 400;
-    font-size: 0.95rem;
-    width: 100%;
-    margin-bottom: 10%;
+  padding: 0% 6vw;
+  font-family: $secondary-font;
+  color: $secondary-color;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 10%;
 }
 
 .projects {
@@ -242,7 +242,6 @@ header {
       }
     }
   }
-  
 }
 // ABOUT SECTION
 
@@ -298,6 +297,9 @@ header {
     }
 
     p {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0;
       color: $main-color;
       font-weight: 400;
       font-size: 1rem;
@@ -322,6 +324,9 @@ header {
       flex-direction: column;
       gap: 20px;
       button {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
         // padding: 20px 50px;
         width: 87vw;
         height: 8vh;
@@ -372,6 +377,9 @@ header {
       margin-bottom: 5%;
     }
     p {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0;
       color: $main-color;
       font-weight: 400;
       font-size: 1rem;
@@ -381,6 +389,9 @@ header {
   }
 
   .place-container {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
     margin-top: 10%;
     padding: 0% 6vw;
     display: flex;
@@ -497,12 +508,26 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
 
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@media (min-width: 768px) {
   body {
     margin: 0 auto;
     max-width: 768px;
     padding: 0px 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
   }
   header {
     display: flex;
@@ -542,25 +567,24 @@ header {
         }
       }
     }
-      .dropdown {
-        display: none;
-      }
+    .dropdown {
+      display: none;
     }
+  }
 
   .hero {
-      padding: 5.2% 6vw 0% 6vw;
-    }
+    padding: 5.2% 6vw 0% 6vw;
   }
-  .projects-title {
+}
+.projects-title {
   margin-bottom: 3%;
-  }
-  .projects {
-    .projects-container {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
+}
+.projects {
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }
 @media (min-width: 1024px) {
 }
-
