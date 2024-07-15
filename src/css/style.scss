@@ -216,7 +216,8 @@ header {
     margin-bottom: 10%;
   }
   .projects-container {
-    overflow-x: scroll;
+    overflow: scroll;
+    overflow-y: hidden;
     .project-content {
       transition: transform 0.5s ease-in-out;
       transform: translateX(0);
@@ -241,6 +242,9 @@ header {
         font-size: 1rem;
       }
     }
+  }
+  .projects-container::-webkit-scrollbar {
+    display: none;
   }
 }
 // ABOUT SECTION

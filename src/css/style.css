@@ -186,7 +186,8 @@ header .navbar-menu .ri-menu-fill {
   margin-bottom: 10%;
 }
 .projects .projects-container {
-  overflow-x: scroll;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 .projects .projects-container .project-content {
   transition: transform 0.5s ease-in-out;
@@ -211,6 +212,9 @@ header .navbar-menu .ri-menu-fill {
 .projects .projects-container .project-content h2 {
   color: #eeeeee;
   font-size: 1rem;
+}
+.projects .projects-container::-webkit-scrollbar {
+  display: none;
 }
 
 .hero-about {
