@@ -1,6 +1,17 @@
 const dropdowns = document.querySelectorAll('.dropdown')
-const imgs = document.getElementsByClassName("project-content")
-const img = document.querySelectorAll(".project-content img")
+const changeTextIcon = document.getElementById('Moon')
+
+const AboutMenu = document.getElementById('AboutMenu')
+const JonasHero = document.getElementById('JonasHero')
+const JonasText = document.getElementById('JonasText')
+const Resume = document.getElementById('Resume')
+const PinnedProjects = document.getElementById('PinnedProjects')
+const h2Covid = document.getElementById('h2Covid')
+const pCovid = document.getElementById('pCovid')
+const h2Bills = document.getElementById('h2Bills')
+const pBills = document.getElementById('pBills')
+const h2Smoke = document.getElementById('h2Smoke')
+const pSmoke = document.getElementById('pSmoke')
 
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
@@ -32,15 +43,45 @@ dropdowns.forEach(dropdown => {
         }
     });
 })
-let idx = 0
-function carrousel(){
-    idx++
-    if(idx > img.length - 1){
-        idx = 0
+
+changeTextIcon.addEventListener('click', () => {
+    event.preventDefault();
+    if (h2Covid.innerText === "COVID-19 Dashboard"
+        && AboutMenu.innerText === "About"
+        && JonasHero.innerText === "hey, Jonas here!"
+        && JonasText.innerText === "I am a software developer who builds for the web with a design-oriented approach. In addiction to coding, I write some posts where i focus on tech and productivity."
+        && Resume.innerText === "Resume"
+        && PinnedProjects.innerText === "Pinned Projects"
+        && pCovid.innerText === "COVID-19 Dashboard: Real-Time Data Visualization."
+        && h2Bills.innerText === "Bills Analyzer"
+        && pBills.innerText === "Spending Analyzer: Simplified and effective financial control."
+        && h2Smoke.innerText === "Smoke Tracker"
+        && pSmoke.innerText === "Smoking Tracker: Personalized monitoring for changing habits."
+
+    ){
+        h2Covid.innerText = "Painel COVID-19"
+        AboutMenu.innerText = "Sobre mim"
+        JonasHero.innerText = "E aí, Jonas aqui!"
+        JonasText.innerText = "Sou um desenvolvedor de software que desenvolve para a web com uma abordagem orientada ao design. Além dos códigos, escrevo alguns posts onde foco em tecnologia e produtividade."
+        Resume.innerText = "Currículo"
+        PinnedProjects.innerText = "Projetos Fixados"
+        pCovid.innerText = "Dashboard de COVID-19: Visualização de dados em tempo real."
+        h2Bills.innerText = "Analisador de gastos"
+        pBills.innerText = "Analisador de Gastos: Controle financeiro simplificado e eficaz."
+        h2Smoke.innerText = "Rastreador de fumante"
+        pSmoke.innerText = "Rastreador de Fumantes: Monitoramento personalizado para mudança de hábitos."
     }
-    imgs.style.transform = `translateX(${-idx * 500}px)`
-}
-setInterval(carrousel, 1800)
-console.log('ta funcionando?')
-console.log('ta')
-console.log(img.length)
+    else {
+        h2Covid.innerText = "COVID-19 Dashboard"
+        AboutMenu.innerText = "About"
+        JonasHero.innerText = "hey, Jonas here!"
+        JonasText.innerText = "I am a software developer who builds for the web with a design-oriented approach. In addiction to coding, I write some posts where i focus on tech and productivity."
+        Resume.innerText = "Resume"
+        PinnedProjects.innerText = "Pinned Projects"
+        pCovid.innerText = "COVID-19 Dashboard: Real-Time Data Visualization."
+        h2Bills.innerText = "Bills Analyzer"
+        pBills.innerText = "Spending Analyzer: Simplified and effective financial control."
+        h2Smoke.innerText = "Smoke Tracker"
+        pSmoke.innerText = "Smoking Tracker: Personalized monitoring for changing habits."
+    }
+})

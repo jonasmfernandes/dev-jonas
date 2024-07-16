@@ -16,13 +16,13 @@
       <nav class="navbar-menu">
 
         <ul class="menu-tablet">
-          <li class="first-link-tablet"><a href="about.html">About</a></li>
+          <li class="first-link-tablet"><a href="about.html" id="About">About</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="sandbox.html" class="last-link-tablet">Sandbox</a></li>
+          <li><a href="sandbox.html" class="last-link-tablet" id="Sandbox">Sandbox</a></li>
           <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
           <!-- <li class="active">menu</li> -->
         </ul>
-        <a href=""><i class="ri-moon-fill"></i></a>
+        <a href="" id="Moon"><i class="ri-moon-fill" id="Moons"></i></a>
         <div class="dropdown">
           <div class="select">
             <span class="selected"><i class="ri-menu-fill"></i></span>
@@ -30,7 +30,7 @@
           </div>
 
           <ul class="menu">
-            <li class="first-link"><a href="about.html">About</a></li>
+            <li class="first-link"><a href="about.html" id="AboutMenu">About</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="sandbox.html">Sandbox</a></li>
             <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
@@ -43,8 +43,8 @@
 
     <main class="hero">
       <div class="hero-container">
-        <h2>hey, Jonas here!</h2>
-        <p>
+        <h2 id="JonasHero">hey, Jonas here!</h2>
+        <p id="JonasText">
           I am a software developer who builds for the web with a
           design-oriented approach. In addiction to coding, I write some posts
           where i focus on tech and productivity.
@@ -59,10 +59,11 @@
             <i class="ri-arrow-right-line"></i>
           </button>
           <button class="btn">
-            <a
+            <a 
               href="assets/curriculum.pdf"
               download="curriculum.pdf"
               target="_blank"
+              id="Resume"
               >Resume</a
             >
             <i class="ri-arrow-right-line"></i>
@@ -77,34 +78,31 @@
       </div>
     </main>
 
-    <p class="projects-title">Pinned Projects</p>
+    <p class="projects-title" id="PinnedProjects">Pinned Projects</p>
     <section class="projects">
       <!-- <p>Pinned Projects</p> -->
       <div class="projects-container">
         <div class="project-content" id="img">
           <img src="assets/covid dashboard.png" alt="" />
-          <h2>COVID-19 Dashboard</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            placeat?
+          <h2 id="h2Covid">COVID-19 Dashboard</h2>
+          <p id="pCovid">
+            COVID-19 Dashboard: Real-Time Data Visualization.
           </p>
         </div>
 
         <div class="project-content">
           <img src="assets/bills analyzer.png" alt="" />
-          <h2>Bills Analyzer</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            placeat?
+          <h2 id="h2Bills">Bills Analyzer</h2>
+          <p id="pBills">
+            Spending Analyzer: Simplified and effective financial control.
           </p>
         </div>
 
         <div class="project-content">
           <img src="assets/smoke tracker.png" alt="" />
-          <h2>Smoke Tracker</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            placeat?
+          <h2 id="h2Smoke">Smoke Tracker</h2>
+          <p id="pSmoke">
+            Smoking Tracker: Personalized monitoring for changing habits.
           </p>
         </div>
       </div>

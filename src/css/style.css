@@ -219,17 +219,17 @@ header .navbar-menu .ri-menu-fill {
 
 .hero-about {
   background-color: #111111;
-  height: 90vh;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 0% 6vw;
+  padding: 5.2% 6vw;
 }
 .hero-about .hero-container-about {
   display: flex;
   flex-direction: column;
 }
 .hero-about .hero-container-about h2 {
+  padding-top: 10%;
   color: #eeeeee;
   font-size: 1.8rem;
 }
@@ -245,9 +245,10 @@ header .navbar-menu .ri-menu-fill {
   padding-top: 20px;
 }
 .hero-about .container-photo img {
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 10px;
   width: 250px;
+  padding-bottom: 20px;
 }
 
 .text-about {

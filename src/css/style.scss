@@ -251,16 +251,17 @@ header {
 
 .hero-about {
   background-color: #111111;
-  height: 90vh;
+  // height: 90vh;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 0% 6vw;
+  padding: 5.2% 6vw;
 
   .hero-container-about {
     display: flex;
     flex-direction: column;
     h2 {
+      padding-top: 10%;
       color: $main-color;
       font-size: 1.8rem;
     }
@@ -277,9 +278,10 @@ header {
     margin-left: 15%;
     padding-top: 20px;
     img {
-      margin-top: 50px;
+      margin-top: 30px;
       border-radius: 10px;
       width: 250px;
+      padding-bottom: 20px;
     }
   }
 }
