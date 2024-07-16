@@ -25,7 +25,7 @@ header .logo a {
 }
 header .navbar-menu {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 header .navbar-menu .menu-tablet {
   display: none;
