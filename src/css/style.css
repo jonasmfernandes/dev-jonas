@@ -25,6 +25,7 @@ header .logo a {
 }
 header .navbar-menu {
   display: flex;
+  gap: 10px;
 }
 header .navbar-menu .menu-tablet {
   display: none;
@@ -45,7 +46,6 @@ header .navbar-menu .dropdown {
   position: relative;
 }
 header .navbar-menu .dropdown .select .selected {
-  margin-left: 5px;
   font-size: 20px;
   color: #a8a8a8;
   cursor: pointer;
@@ -64,8 +64,8 @@ header .navbar-menu .dropdown .menu {
   position: absolute;
   top: 2.3em;
   transition: 0.2s;
-  right: -200%;
-  width: 400%;
+  right: -300%;
+  width: 600%;
   transform: translateX(-50%);
   opacity: 0;
   display: none;
@@ -107,10 +107,6 @@ header .navbar-menu .dropdown .menu-open:hover {
 header .navbar-menu .dropdown .show {
   display: block;
 }
-header .navbar-menu .ri-menu-fill {
-  margin-left: 20px;
-}
-
 .hero {
   background-color: #111111;
   height: 47vh;
@@ -390,7 +386,7 @@ header .navbar-menu .ri-menu-fill {
   color: #a8a8a8;
   font-weight: 400;
   font-size: 1rem;
-  width: 80%;
+  width: 57%;
 }
 .work .place-container .text-place .h3-b2x {
   left: 57vw;

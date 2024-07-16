@@ -77,10 +77,14 @@ changeTextIcon.addEventListener('click', () => {
         h2Work.innerText = "Experiência de Trabalho"
         pWork.innerText = "Sou especialista em React, desenvolvimento web, UI/UX e motion design. Mas estou sempre aprendendo novas tecnologias. Aqui estão os lugares onde trabalhei."
         h2B2x.innerText = "Técnico de Software"
+        h2B2x.style.fontSize = '0.9rem'
         h2Kaizen.innerText = "Desenvolvedor Front-end"
+        h2Kaizen.style.fontSize = '0.9rem'
         h2Sankhya.innerText = "Desenvolvedor Back-end"
+        h2Sankhya.style.fontSize = '0.9rem'
         h2Unimax.innerText = "Estagiário de Informática"
-    }
+        h2Unimax.style.fontSize = '0.9rem'
+    }   
     else {
         AboutHero.innerText = "About"
         AboutMenuTablet.innerText = "About"
@@ -94,9 +98,13 @@ changeTextIcon.addEventListener('click', () => {
         h2Work.innerText = "Work"
         pWork.innerText = "I specialize in React, web development, UI/UX and motion design. But I am always learning new things. Here are some of the places I worked."
         h2B2x.innerText = "Software Technician"
+        h2B2x.style.fontSize = '1rem'
+        h2Kaizen.style.fontSize = '1rem'
+        h2Sankhya.style.fontSize = '1rem'
+        h2Unimax.style.fontSize = '1rem'
         h2Kaizen.innerText = "Front-end Developer"
         h2Sankhya.innerText = "Back-end Developer"
         h2Unimax.innerText = "Intern Technician"
-
+        
     }
 })
