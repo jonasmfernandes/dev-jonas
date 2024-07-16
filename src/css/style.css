@@ -39,7 +39,6 @@ header .navbar-menu a {
 }
 header .navbar-menu a:hover {
   cursor: pointer;
-  color: #eeeeee;
   transition: 0.2s;
 }
 header .navbar-menu .dropdown {
