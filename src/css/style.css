@@ -62,7 +62,7 @@ header .navbar-menu .dropdown .menu {
   list-style: none;
   position: absolute;
   top: 2.3em;
-  transition: 0.2s;
+  transition: 0.1s;
   right: -300%;
   width: 600%;
   transform: translateX(-50%);
