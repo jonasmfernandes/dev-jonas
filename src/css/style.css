@@ -196,7 +196,7 @@ header .navbar-menu .dropdown .show {
      object-fit: cover;
   border-radius: 10px;
   height: 20vh;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .projects .projects-container .project-content img:hover {
   box-shadow: 5px 5px 15px;
