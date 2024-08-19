@@ -465,7 +465,6 @@ header .navbar-menu .dropdown .show {
   }
   header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 768px;
@@ -473,17 +472,17 @@ header .navbar-menu .dropdown .show {
   }
   header .navbar-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-  }
-  header .navbar-menu .ri-moon-fill {
-    padding-left: 190px;
   }
   header .navbar-menu .menu-tablet {
     display: flex;
     text-decoration: none;
     list-style: none;
     gap: 30px;
+  }
+  header .navbar-menu .menu-tablet .last-link-tablet {
+    padding-right: 140px;
   }
   header .navbar-menu .menu-tablet li a {
     font-size: 1rem;

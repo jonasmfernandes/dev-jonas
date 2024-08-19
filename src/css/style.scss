@@ -536,23 +536,27 @@ header {
   }
   header {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 768px;
     padding-top: 5.2%;
     .navbar-menu {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      .ri-moon-fill {
-        padding-left: 190px;
-      }
+      // .ri-earth-fill {
+         // padding-left: 140px;
+      // }
       .menu-tablet {
         display: flex;
         text-decoration: none;
         list-style: none;
         gap: 30px;
+
+       .last-link-tablet {
+        padding-right: 140px;
+       }
 
         li a {
           font-size: 1rem;
@@ -562,6 +566,8 @@ header {
             color: $main-color;
             transition: 0.1s;
           }
+
+          
         }
       }
     }
