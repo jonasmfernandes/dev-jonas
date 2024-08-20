@@ -236,6 +236,7 @@ header .navbar-menu .dropdown .show {
   width: 100%;
 }
 .hero-about .container-photo {
+  display: none;
   margin-left: 15%;
   padding-top: 20px;
 }
@@ -326,7 +327,7 @@ header .navbar-menu .dropdown .show {
 }
 .work .work-container {
   margin-top: 10%;
-  padding: 0% 22px;
+  padding: 0% 6vw;
 }
 .work .work-container h2 {
   color: #a8a8a8;
@@ -498,6 +499,15 @@ header .navbar-menu .dropdown .show {
   .hero {
     padding: 5.2% 6vw 0% 6vw;
     height: 35vh;
+  }
+  .container-photo {
+    display: none;
+  }
+  .connect .connect-container {
+    margin-top: 5%;
+  }
+  .connect .connect-container .connect-container-btn button {
+    width: 100%;
   }
 }
 .projects-title {
