@@ -138,7 +138,7 @@ header {
 
 .hero {
   background-color: #111111;
-  height: 50vh;
+  height: 45vh;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -150,7 +150,6 @@ header {
     h2 {
       color: $main-color;
       font-size: 1.8rem;
-      padding-top: 15px;
     }
     p {
       font-family: $secondary-font;
