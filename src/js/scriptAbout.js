@@ -15,6 +15,7 @@ const h2B2x = document.getElementById('h2B2x')
 const h2Kaizen = document.getElementById('h2Kaizen')
 const h2Sankhya = document.getElementById('h2Sankhya')
 const h2Unimax = document.getElementById('h2Unimax')
+const spanB2x = document.getElementById('spanB2x')
 
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
@@ -64,6 +65,7 @@ changeTextIcon.addEventListener('click', () => {
         && h2Kaizen.innerText === "Front-end Developer"
         && h2Sankhya.innerText === "Back-end Developer"
         && h2Unimax.innerText === "Intern Technician"
+        && spanB2x.innerText === "2023 - Current"
     ){
         AboutHero.innerText = "Sobre mim"
         AboutMenuTablet.innerText = "Sobre mim"
@@ -84,6 +86,7 @@ changeTextIcon.addEventListener('click', () => {
         h2Sankhya.style.fontSize = '0.9rem'
         h2Unimax.innerText = "Estagiário de Informática"
         h2Unimax.style.fontSize = '0.9rem'
+        spanB2x.innerText = "2023 - Atual"
     }   
     else {
         AboutHero.innerText = "About"
@@ -105,6 +108,7 @@ changeTextIcon.addEventListener('click', () => {
         h2Kaizen.innerText = "Front-end Developer"
         h2Sankhya.innerText = "Back-end Developer"
         h2Unimax.innerText = "Intern Technician"
+        spanB2x.innerText = "2023 - Current"
         
     }
 })
