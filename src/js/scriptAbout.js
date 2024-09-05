@@ -55,7 +55,7 @@ changeTextIcon.addEventListener('click', () => {
         && AboutMenu.innerText === "About"
         && pHeroAbout.innerText === "A glimpse into me."
         && h3About.innerText === "About"
-        && pAbout.innerText === "Hi, I'm Jonas, born in Brazil. I have been coding for 2 years. As a software developer, I specialize in front-end web development and design."
+        && pAbout.innerText === "Hello, my name is Jonas, born in Brazil. I've been building codes for 2 years. As a software developer, I specialize in front-end web development and UX/UI Design."
         && pAbout2.innerText === "In addition to coding, I like to write on medium, about technology, coding and personal development."
         && pAbout3.innerText === "When I'm not at my desk, I am probably lifting weights, with my girlfriend or reading some good books."
         && h2Connect.innerText === "Connect"
@@ -72,20 +72,20 @@ changeTextIcon.addEventListener('click', () => {
         AboutMenu.innerText = "Sobre mim"
         pHeroAbout.innerText = "Um vislumbre sobre mim."
         h3About.innerText = "Sobre mim"
-        pAbout.innerText = "Olá, meu nome é Jonas, nascido no Brasil. Estou codificando há 2 anos. Como desenvolvedor de software, sou especializado em desenvolvimento e design web front-end."
+        pAbout.innerText = "Olá, meu nome é Jonas, nascido no Brasil. Estou construindo códigos há 2 anos. Como desenvolvedor de software, sou especialista em desenvolvimento web front-end e aliado à UX/UI Design."
         pAbout2.innerText = "Além dos códigos, gosto de escrever no Medium. Escrevo sobre tecnologia, códigos e desenvolvimento pessoal."
         pAbout3.innerText = "Quando não estou no meu computador, provavelmente estou na academia, com minha namorada ou lendo bons livros."
         h2Connect.innerText = "Conecte-se"
         h2Work.innerText = "Experiência de Trabalho"
         pWork.innerText = "Sou especialista em React, desenvolvimento web, UI/UX e motion design. Mas estou sempre aprendendo novas tecnologias. Aqui estão os lugares onde trabalhei."
         h2B2x.innerText = "Técnico de Software"
-        h2B2x.style.fontSize = '0.9rem'
+        h2B2x.style.fontSize = '1rem'
         h2Kaizen.innerText = "Desenvolvedor Front-end"
-        h2Kaizen.style.fontSize = '0.9rem'
+        h2Kaizen.style.fontSize = '1rem'
         h2Sankhya.innerText = "Desenvolvedor Back-end"
-        h2Sankhya.style.fontSize = '0.9rem'
+        h2Sankhya.style.fontSize = '1rem'
         h2Unimax.innerText = "Estagiário de Informática"
-        h2Unimax.style.fontSize = '0.9rem'
+        h2Unimax.style.fontSize = '1rem'
         spanB2x.innerText = "2023 - Atual"
     }   
     else {
@@ -94,7 +94,7 @@ changeTextIcon.addEventListener('click', () => {
         AboutMenu.innerText = "About"
         pHeroAbout.innerText = "A glimpse into me."
         h3About.innerText = "About"
-        pAbout.innerText = "Hi, I'm Jonas, born in Brazil. I have been coding for 2 years. As a software developer, I specialize in front-end web development and design."
+        pAbout.innerText = "Hello, my name is Jonas, born in Brazil. I've been building codes for 2 years. As a software developer, I specialize in front-end web development and UX/UI Design."
         pAbout2.innerText = "In addition to coding, I like to write on medium, about technology, coding and personal development."
         pAbout3.innerText = "When I'm not at my desk, I am probably lifting weights, with my girlfriend or reading some good books."
         h2Connect.innerText = "Connect"
