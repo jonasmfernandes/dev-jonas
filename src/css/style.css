@@ -437,7 +437,7 @@ header .navbar-menu .dropdown .show {
 }
 .sandbox-things p {
   color: #a8a8a8;
-  margin-bottom: 5%;
+  margin-bottom: 15px;
 }
 
 @keyframes openTransition {
