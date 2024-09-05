@@ -515,6 +515,12 @@ header .navbar-menu .dropdown .show {
   }
 }
 .projects-title {
+  padding: 5% 6vw 2% 6vw;
+  font-family: "Poppins", sans-serif;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 100%;
   margin-bottom: 3%;
 }
 
