@@ -138,7 +138,7 @@ header {
 
 .hero {
   background-color: #111111;
-  height: 47vh;
+  height: 50vh;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -150,6 +150,7 @@ header {
     h2 {
       color: $main-color;
       font-size: 1.8rem;
+      padding-top: 25px;
     }
     p {
       font-family: $secondary-font;
@@ -162,10 +163,10 @@ header {
     .btn-container {
       display: flex;
       gap: 10px;
-      margin-top: 20px;
+      margin-top: 10px;
       .btn {
         border-radius: 20px;
-        padding: 4px 15px;
+        padding: 4px 10px;
         border: none;
         background-color: $terciary-color;
         color: $main-color;
@@ -176,12 +177,12 @@ header {
           // display: flex;
           text-decoration: none;
           color: $main-color;
-          font-size: 1rem;
+          font-size: 0.9rem;
         }
         i {
           padding-left: 5px;
           color: #6e6e6e;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
           font-weight: 500;
           text-decoration: none;
         }
@@ -191,7 +192,7 @@ header {
 }
 
 .projects-title {
-  padding: 5% 6vw 0% 6vw;
+  padding: 5% 6vw 4% 6vw;
   font-family: $secondary-font;
   color: $secondary-color;
   font-weight: 400;
@@ -215,6 +216,11 @@ header {
     margin-bottom: 10%;
   }
   .projects-container {
+
+    #billsImg {
+      margin: 0px 10px;
+      border-radius: 5px;
+    }
     overflow: scroll;
     overflow-y: hidden;
     .project-content {
@@ -225,9 +231,9 @@ header {
       gap: 12px;
       img {
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 5px;
         // width: 97%;
-        height: 20vh;
+        height: 22vh;
         transition: 0.1s;
         &:hover {
           box-shadow: 5px 5px 15px;

@@ -108,7 +108,7 @@ header .navbar-menu .dropdown .show {
 }
 .hero {
   background-color: #111111;
-  height: 47vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   padding: 0% 6vw;
@@ -121,6 +121,7 @@ header .navbar-menu .dropdown .show {
 .hero .hero-container h2 {
   color: #eeeeee;
   font-size: 1.8rem;
+  padding-top: 25px;
 }
 .hero .hero-container p {
   font-family: "Poppins", sans-serif;
@@ -132,11 +133,11 @@ header .navbar-menu .dropdown .show {
 .hero .hero-container .btn-container {
   display: flex;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .hero .hero-container .btn-container .btn {
   border-radius: 20px;
-  padding: 4px 15px;
+  padding: 4px 10px;
   border: none;
   background-color: #1c1c1c;
   color: #eeeeee;
@@ -147,18 +148,18 @@ header .navbar-menu .dropdown .show {
 .hero .hero-container .btn-container .btn a {
   text-decoration: none;
   color: #eeeeee;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .hero .hero-container .btn-container .btn i {
   padding-left: 5px;
   color: #6e6e6e;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   text-decoration: none;
 }
 
 .projects-title {
-  padding: 5% 6vw 0% 6vw;
+  padding: 5% 6vw 4% 6vw;
   font-family: "Poppins", sans-serif;
   color: #a8a8a8;
   font-weight: 400;
@@ -184,6 +185,10 @@ header .navbar-menu .dropdown .show {
   overflow: scroll;
   overflow-y: hidden;
 }
+.projects .projects-container #billsImg {
+  margin: 0px 10px;
+  border-radius: 5px;
+}
 .projects .projects-container .project-content {
   transition: transform 0.4s ease-in-out;
   transform: translateX(0);
@@ -194,8 +199,8 @@ header .navbar-menu .dropdown .show {
 .projects .projects-container .project-content img {
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
-  height: 20vh;
+  border-radius: 5px;
+  height: 22vh;
   transition: 0.1s;
 }
 .projects .projects-container .project-content img:hover {
