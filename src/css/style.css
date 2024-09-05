@@ -372,6 +372,9 @@ header .navbar-menu .dropdown .show {
   font-size: 1rem;
   margin-bottom: 3%;
 }
+.work .place-container .text-place h2 span {
+  color: #a8a8a8;
+}
 .work .place-container .text-place h2 a {
   color: #eeeeee;
   font-weight: 400;
