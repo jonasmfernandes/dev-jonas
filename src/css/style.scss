@@ -14,8 +14,8 @@ $secondary-color: #a8a8a8;
 $background-color: #111111;
 $terciary-color: #1c1c1c;
 
-body {
-  background-color: $background-color;
+#body {
+  background-color: #111111;
   animation: openTransition 0.3s;
 }
 
@@ -563,7 +563,7 @@ header {
         gap: 30px;
 
         .last-link-tablet {
-          padding-right: 140px;
+          margin-right: 140px;
         }
 
         li a {
@@ -648,7 +648,7 @@ header {
     padding-right: 0px;
   }
   .ri-earth-fill {
-    padding-left: 15px;
+    padding-left: 28px;
   }
 
   .connect {

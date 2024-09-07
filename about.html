@@ -10,31 +10,31 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="body">
     <header>
-      <h1 class="logo"><a href="index.html">JM</a></h1>
+      <h1 class="logo"><a href="index.html" id="logo">JM</a></h1>
       <nav class="navbar-menu">
 
         <ul class="menu-tablet">
           <li class="first-link-tablet"><a href="about.html" id="AboutMenuTablet">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="sandbox.html" class="last-link-tablet">Sandbox</a></li>
+          <li><a href="#" id="aboutBlog">Blog</a></li>
+          <li><a href="sandbox.html" class="last-link-tablet" id="aboutSandbox">Sandbox</a></li>
           <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
           <!-- <li class="active">menu</li> -->
         </ul>
         <a href="" id="Moon"><i class="ri-earth-fill" id="Moons"></i></a>
-        <a href="" id="Moon"><i class="ri-moon-fill"></i></a>
+        <a href="" id="darkLight"><i class="ri-moon-fill"></i></a>
         <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
         <div class="dropdown">
           <div class="select">
-            <span class="selected"><i class="ri-menu-fill"></i></span>
+            <span class="selected"><i id="menu" class="ri-menu-fill"></i></span>
             <div class="caret"></div>
           </div>
 
           <ul class="menu">
             <li class="first-link"><a href="about.html" id="AboutMenu">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li class="last-link"><a href="sandbox.html">Sandbox</a></li>
+            <li><a href="#" >Blog</a></li>
+            <li class="last-link"><a href="sandbox.html" >Sandbox</a></li>
             <!-- <li class="last-link"> <a href="#">Gear</a></li> -->
             <!-- <li class="active">menu</li> -->
           </ul>
@@ -42,7 +42,7 @@
       </nav>
     </header>
 
-    <main class="hero-about">
+    <main class="hero-about" id="heroAbout">
       <div class="hero-container-about">
         <h2 id="AboutHero">About</h2>
         <p id="pHeroAbout">
@@ -84,24 +84,24 @@
         <div class="connect-container">
             <h2 id="h2Connect">Connect</h2>
             <div class="connect-container-btn">
-                <button class="btn">
-                    <i class="ri-linkedin-box-fill"></i>
-                    <a target="_blank" href="https://www.linkedin.com/in/jonas-monteiro-fernandes/">LinkedIn</a>
+                <button class="btn" id="btnConnect1">
+                    <i id="btnIcon1" class="ri-linkedin-box-fill"></i>
+                    <a target="_blank" href="https://www.linkedin.com/in/jonas-monteiro-fernandes/" id="btnText1">LinkedIn</a>
                     <div class="arrow">
-                        <i class="ri-arrow-right-line"></i> 
+                        <i id="btnArrow1" class="ri-arrow-right-line"></i> 
                     </div>
                   </button>
 
-                  <button class="btn">
-                    <i class="ri-github-fill"></i>
-                    <a target="_blank" href="https://github.com/jonasmfernandes">Github</a>
-                    <i class="ri-arrow-right-line"></i> 
+                  <button class="btn" id="btnConnect2">
+                    <i id="btnIcon2" class="ri-github-fill"></i>
+                    <a target="_blank" href="https://github.com/jonasmfernandes" id="btnText2">Github</a>
+                    <i id="btnArrow2" class="ri-arrow-right-line"></i> 
                   </button>
 
-                  <button class="btn">
-                    <i class="ri-instagram-line"></i>
-                    <a target="_blank" href="https://instagram.com/ojonasmonteiro">Instagram</a>
-                    <i class="ri-arrow-right-line"></i> 
+                  <button class="btn" id="btnConnect3">
+                    <i id="btnIcon3" class="ri-instagram-line"></i>
+                    <a target="_blank" href="https://instagram.com/ojonasmonteiro" id="btnText3">Instagram</a>
+                    <i id="btnArrow3" class="ri-arrow-right-line"></i> 
                   </button>
             </div>
         </div>
@@ -116,7 +116,7 @@
             <img src="assets/b2x.png" class="img-place-b2x"></img>
             <div class="text-place">
                 <h2><a target="_blank" id="h2B2x" href="https://www.b2x.com/">Software Technician <span id="spanB2x"></span></a></h2>
-                <p>B2X Care (2023 - 2024)</p>
+                <p id="b2xSubtitle">B2X Care (2023 - 2024)</p>
                 <!-- <h3 class="h3-b2x">2023 - </h3> -->
             </div>
         </div>
@@ -125,7 +125,7 @@
             <img src="assets/eKaizen.png" class="img-place-b2x"></img>
             <div class="text-place">
                 <h2><a target="_blank" id="h2Kaizen" href="https://www.ekaizen.digital/">Front-end Developer <span></span></a></h2>
-                <p>eKaizen Digital (2022 - 2023)</p>
+                <p id="kaizenSubtitle">eKaizen Digital (2022 - 2023)</p>
                 <!-- <h3>2022 - 2023</h3> -->
             </div>
         </div>
@@ -134,7 +134,7 @@
             <img src="assets/Sankhya.png" class="img-place-b2x"></img>
             <div class="text-place">
                 <h2><a target="_blank" id="h2Sankhya" href="https://www.sankhya.com.br/">Back-end Developer <span></span></a></h2>
-                <p>Sankhya (2022 - 2022)</p>
+                <p id="sankhyaSubtitle">Sankhya (2022 - 2022)</p>
                 <!-- <h3>2022 - 2022</h3> -->
             </div>
         </div>
@@ -143,7 +143,7 @@
             <img src="assets/Unimax.png" class="img-place-b2x"></img>
             <div class="text-place">
                 <h2><a target="_blank" id="h2Unimax" href="https://grupounieduk.com.br/unimax/">Intern Technician <span></span></a></h2>
-                <p>Unimax University (2021 - 2022)</p>
+                <p id="unimaxSubtitle">Unimax University (2021 - 2022)</p>
                 <!-- <h3>2021 - 2022</h3> -->
             </div>
         </div>

@@ -7,7 +7,7 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-body {
+#body {
   background-color: #111111;
   animation: openTransition 0.3s;
 }
@@ -488,7 +488,7 @@ header .navbar-menu .dropdown .show {
     gap: 30px;
   }
   header .navbar-menu .menu-tablet .last-link-tablet {
-    padding-right: 140px;
+    margin-right: 140px;
   }
   header .navbar-menu .menu-tablet li a {
     font-size: 1rem;
@@ -554,7 +554,7 @@ header .navbar-menu .dropdown .show {
     padding-right: 0px;
   }
   .ri-earth-fill {
-    padding-left: 15px;
+    padding-left: 28px;
   }
   .connect .connect-container {
     margin-top: 40px;
