@@ -12,36 +12,28 @@
   </head>
   <body id="body">
     <header>
-      <h1 class="logo"><a href="index.html">JM</a></h1>
+      <h1 class="logo"><a href="index.html" id="logo">JM</a></h1>
       <nav class="navbar-menu">
         <ul class="menu-tablet">
-          <li class="first-link-tablet">
-            <a href="about.html" id="About">About</a>
-          </li>
-          <li><a href="#">Blog</a></li>
-          <li>
-            <a href="sandbox.html" class="last-link-tablet" id="Sandbox"
-              >Sandbox</a
-            >
-          </li>
+          <li class="first-link-tablet"><a href="about.html" id="AboutMenuTablet">About</a></li>
+          <li><a href="#" id="aboutBlog">Blog</a></li>
+          <li><a href="sandbox.html" class="last-link-tablet" id="aboutSandbox">Sandbox</a></li>
           <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
           <!-- <li class="active">menu</li> -->
         </ul>
         <a href="" id="Moon"><i class="ri-earth-fill" id="Moons"></i></a>
-        <a href="" id="Moons"><i class="ri-moon-fill" id="Moons"></i></a>
+        <a href="" id="darkLight"><i class="ri-moon-fill"></i></a>
         <div class="dropdown">
           <div class="select">
-            <span class="selected"><i class="ri-menu-fill"></i></span>
+            <span class="selected"><i id="menu" class="ri-menu-fill"></i></span>
             <div class="caret"></div>
           </div>
 
-          <ul class="menu">
-            <li class="first-link">
-              <a href="about.html" id="AboutMenu">About</a>
-            </li>
-            <li><a href="#">Blog</a></li>
-            <li class="last-link"><a href="sandbox.html">Sandbox</a></li>
-            <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
+          <ul class="menu" id="menuDropdown">
+            <li id="aboutDropdown" class="first-link"><a href="about.html" id="aboutDpText">About</a></li>
+            <li id="blogDropdown"><a href="#" id="blogDpText">Blog</a></li>
+            <li id="sandboxDropdown" class="last-link"><a href="sandbox.html" id="sandboxDpText" >Sandbox</a></li>
+            <!-- <li class="last-link"> <a href="#">Gear</a></li> -->
             <!-- <li class="active">menu</li> -->
           </ul>
         </div>
@@ -49,7 +41,7 @@
       <!-- <a href=""><i id="moon-large" class="ri-moon-fill"></i></a> -->
     </header>
 
-    <main class="hero">
+    <main class="hero" id="heroContainer">
       <div class="hero-container">
         <h2 id="JonasHero">hey, Jonas here!</h2>
         <p id="JonasText">
