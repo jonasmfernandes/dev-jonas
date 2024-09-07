@@ -43,6 +43,14 @@ const btnArrow1 = document.getElementById("btnArrow1");
 const btnArrow2 = document.getElementById("btnArrow2");
 const btnArrow3 = document.getElementById("btnArrow3");
 
+const aboutDropdown = document.getElementById('aboutDropdown')
+const blogDropdown = document.getElementById('blogDropdown')
+const sandboxDropdown = document.getElementById('sandboxDropdown')
+
+const aboutDpText = document.getElementById('aboutDpText')
+const blogDpText = document.getElementById('blogDpText')
+const sandboxDpText = document.getElementById('sandboxDpText')
+
 dropdowns.forEach((dropdown) => {
   const select = document.querySelector(".select");
   const caret = document.querySelector(".caret");
@@ -81,7 +89,6 @@ changeMode.addEventListener("click", (event) => {
     // 'rgb(17, 17, 17)' é a forma que '#111111' é representada
     body.style.backgroundColor = "#FFFFFF";
     AboutHero.style.color = "#202020";
-    AboutMenu.style.color = "#202020";
     aboutBlog.style.color = "#202020";
     aboutSandbox.style.color = "#202020";
     AboutMenuTablet.style.color = "#202020";
@@ -124,6 +131,15 @@ changeMode.addEventListener("click", (event) => {
     btnArrow1.style.color = "#191919";
     btnArrow2.style.color = "#191919";
     btnArrow3.style.color = "#191919";
+
+    aboutDropdown.style.backgroundColor = "#F9F9F9"
+    blogDropdown.style.backgroundColor = "#F9F9F9"
+    sandboxDropdown.style.backgroundColor = "#F9F9F9"
+
+    aboutDpText.style.color = "#111111" 
+    blogDpText.style.color = "#111111" 
+    sandboxDpText.style.color = "#111111" 
+
   } else {
     body.style.backgroundColor = "#111111";
     AboutHero.style.color = "#EEEEEE";
@@ -168,6 +184,14 @@ changeMode.addEventListener("click", (event) => {
     btnArrow1.style.color = "#EEEEEE";
     btnArrow2.style.color = "#EEEEEE";
     btnArrow3.style.color = "#EEEEEE";
+
+    aboutDropdown.style.backgroundColor = "#0A0A0A"
+    blogDropdown.style.backgroundColor = "#0A0A0A"
+    sandboxDropdown.style.backgroundColor = "#0A0A0A"
+
+    aboutDpText.style.color = "#EEEEEE" 
+    blogDpText.style.color = "#EEEEEE" 
+    sandboxDpText.style.color = "#EEEEEE" 
   }
 });
 
