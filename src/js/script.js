@@ -141,7 +141,11 @@ changeMode.addEventListener("click", (event) => {
 changeTextIcon.addEventListener('click', () => {
     event.preventDefault();
     if (h2Covid.innerText === "COVID-19 Dashboard"
-        // && AboutMenu.innerText === "About"
+        && AboutMenuTablet.innerText === "About"
+        && aboutDpText.innerText === "About"
+        && sandboxDpText.innerText === "Sandbox"
+        // && sandboxDropdown.innerText === "Sandbox"
+        && aboutSandbox.innerText === "Sandbox"
         && JonasHero.innerText === "hey, Jonas here!"
         && JonasText.innerText === "I am a software developer who builds for the web with a design-oriented approach. In addiction to coding, I write some posts where i focus on tech and productivity."
         && Resume.innerText === "Resume"
@@ -154,7 +158,11 @@ changeTextIcon.addEventListener('click', () => {
 
     ){
         h2Covid.innerText = "Painel COVID-19"
-        // AboutMenu.innerText = "Sobre mim"
+        AboutMenuTablet.innerText = "Sobre mim"
+        aboutDpText.innerText = "Sobre mim"
+        sandboxDpText.innerText = "Criações"
+        // sandboxDropdown.innerText === "Criações"
+        aboutSandbox.innerText = "Criações"
         JonasHero.innerText = "E aí, Jonas aqui!"
         JonasText.innerText = "Sou um desenvolvedor de software que desenvolve para a web com uma abordagem orientada ao design. Além dos códigos, escrevo alguns posts onde foco em tecnologia e produtividade."
         Resume.innerText = "Currículo"
@@ -167,7 +175,11 @@ changeTextIcon.addEventListener('click', () => {
     }
     else {
         h2Covid.innerText = "COVID-19 Dashboard"
-        // AboutMenu.innerText = "About"
+        AboutMenuTablet.innerText = "About"
+        aboutDpText.innerText = "About"
+        sandboxDpText.innerText = "Sandbox"
+        // sandboxDropdown.innerText = "Sandbox"
+        aboutSandbox.innerText = "Sandbox"
         JonasHero.innerText = "hey, Jonas here!"
         JonasText.innerText = "I am a software developer who builds for the web with a design-oriented approach. In addiction to coding, I write some posts where i focus on tech and productivity."
         Resume.innerText = "Resume"

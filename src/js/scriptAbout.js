@@ -203,7 +203,10 @@ changeTextIcon.addEventListener("click", () => {
   if (
     AboutHero.innerText === "About" &&
     AboutMenuTablet.innerText === "About" &&
-    AboutMenu.innerText === "About" &&
+    aboutDpText.innerText === "About"  &&
+    sandboxDpText.innerText === "Sandbox" &&
+    aboutSandbox.innerText === "Sandbox" &&
+    // AboutMenu.innerText === "About" &&
     pHeroAbout.innerText === "A glimpse into me." &&
     h3About.innerText === "About" &&
     pAbout.innerText ===
@@ -224,7 +227,10 @@ changeTextIcon.addEventListener("click", () => {
   ) {
     AboutHero.innerText = "Sobre mim";
     AboutMenuTablet.innerText = "Sobre mim";
-    AboutMenu.innerText = "Sobre mim";
+    aboutDpText.innerText = "Sobre mim"  
+    sandboxDpText.innerText = "Criações" 
+    aboutSandbox.innerText = "Criações" 
+    // AboutMenu.innerText = "Sobre mim";
     pHeroAbout.innerText = "Um vislumbre sobre mim.";
     h3About.innerText = "Sobre mim";
     pAbout.innerText =
@@ -249,7 +255,10 @@ changeTextIcon.addEventListener("click", () => {
   } else {
     AboutHero.innerText = "About";
     AboutMenuTablet.innerText = "About";
-    AboutMenu.innerText = "About";
+    aboutDpText.innerText = "About"  
+    sandboxDpText.innerText = "Sandbox" 
+    aboutSandbox.innerText = "Sandbox" 
+    // AboutMenu.innerText = "About";
     pHeroAbout.innerText = "A glimpse into me.";
     h3About.innerText = "About";
     pAbout.innerText =

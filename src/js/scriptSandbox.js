@@ -11,6 +11,11 @@ const pCard2 = document.getElementById('pCard2')
 const smokingH2 = document.getElementById('smokingH2')
 const pCard3 = document.getElementById('pCard3')
 
+const aboutDpText = document.getElementById('aboutDpText')
+const blogDpText = document.getElementById('blogDpText')
+const sandboxDpText = document.getElementById('sandboxDpText')
+const aboutSandbox = document.getElementById("aboutSandbox");
+
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
     const caret = document.querySelector('.caret')
@@ -46,6 +51,9 @@ changeTextIcon.addEventListener('click', () => {
     event.preventDefault();
     if (h2Sandbox.innerText === "Sandbox"
         && AboutMenuTablet.innerText === "About"
+        && aboutDpText.innerText === "About"
+        && sandboxDpText.innerText === "Sandbox"
+        && aboutSandbox.innerText === "Sandbox"
         && pSandbox.innerText === "My Sandbox."
         && textSandbox.innerText === "This is where I experiment with UI and interaction design. I use this space to explore new ideas or recreate cool things."
         && cardH2.innerText === "Card Reveal"
@@ -57,6 +65,10 @@ changeTextIcon.addEventListener('click', () => {
     ){
         h2Sandbox.innerText = "Criações"
         AboutMenuTablet.innerText = "Sobre mim"
+        aboutDpText.innerText = "Sobre mim"
+        sandboxDpText.innerText = "Criações"
+        // sandboxDropdown.innerText === "Criações"
+        aboutSandbox.innerText = "Criações"
         pSandbox.innerText = "Minhas criações"
         textSandbox.innerText = "É aqui que faço experiências com UI e design de interação. Eu uso esse espaço para explorar novas ideias ou recriar coisas legais."
         cardH2.innerText = "Revelador de Cartão"
@@ -69,6 +81,10 @@ changeTextIcon.addEventListener('click', () => {
     else {
         h2Sandbox.innerText = "Sandbox"
         AboutMenuTablet.innerText = "About"
+        aboutDpText.innerText = "About"
+        sandboxDpText.innerText = "Sandbox"
+        // sandboxDropdown.innerText = "Sandbox"
+        aboutSandbox.innerText = "Sandbox"
         pSandbox.innerText = "My Sandbox."
         textSandbox.innerText = "This is where I experiment with UI and interaction design. I use this space to explore new ideas or recreate cool things."
         cardH2.innerText = "Card Reveal"

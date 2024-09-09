@@ -106,6 +106,7 @@ header .navbar-menu .dropdown .menu-open:hover {
 header .navbar-menu .dropdown .show {
   display: block;
 }
+
 .hero {
   background-color: #111111;
   height: 45vh;
