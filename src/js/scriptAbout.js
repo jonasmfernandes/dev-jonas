@@ -51,6 +51,8 @@ const aboutDpText = document.getElementById('aboutDpText')
 const blogDpText = document.getElementById('blogDpText')
 const sandboxDpText = document.getElementById('sandboxDpText')
 
+
+
 dropdowns.forEach((dropdown) => {
   const select = document.querySelector(".select");
   const caret = document.querySelector(".caret");
@@ -140,6 +142,7 @@ changeMode.addEventListener("click", (event) => {
     blogDpText.style.color = "#111111" 
     sandboxDpText.style.color = "#111111" 
 
+    
   } else {
     body.style.backgroundColor = "#111111";
     AboutHero.style.color = "#EEEEEE";
