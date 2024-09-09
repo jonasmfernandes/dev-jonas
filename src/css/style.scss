@@ -134,7 +134,7 @@ header {
 
 .hero {
   background-color: #111111;
-  height: 40vh;
+  height: 22em;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -152,7 +152,7 @@ header {
       color: $secondary-color;
       font-weight: 400;
       font-size: 0.95rem;
-      max-width: 540px;
+      max-width: 520px;
     }
 
     .btn-container {
@@ -358,7 +358,7 @@ header {
         .ri-arrow-right-line {
           position: absolute;
           right: 15px;
-          top: 17px;
+          top: 25px;
           font-size: 20px;
           color: $main-color;
         }
@@ -560,7 +560,7 @@ header {
         gap: 30px;
 
         .last-link-tablet {
-          margin-right: 140px;
+          margin-right: 150px;
         }
 
         li a {
@@ -595,6 +595,14 @@ header {
       .connect-container-btn {
         button {
           width: 100%;
+
+          .ri-arrow-right-line {
+            position: absolute;
+            right: 15px;
+            top: 38px;
+            font-size: 20px;
+            color: $main-color;
+          }
         }
       }
     }

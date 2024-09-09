@@ -109,7 +109,7 @@ header .navbar-menu .dropdown .show {
 
 .hero {
   background-color: #111111;
-  height: 40vh;
+  height: 22em;
   display: flex;
   align-items: center;
   padding: 0% 6vw;
@@ -128,7 +128,7 @@ header .navbar-menu .dropdown .show {
   color: #a8a8a8;
   font-weight: 400;
   font-size: 0.95rem;
-  max-width: 540px;
+  max-width: 520px;
 }
 .hero .hero-container .btn-container {
   display: flex;
@@ -318,7 +318,7 @@ header .navbar-menu .dropdown .show {
 .connect .connect-container .connect-container-btn button .ri-arrow-right-line {
   position: absolute;
   right: 15px;
-  top: 17px;
+  top: 25px;
   font-size: 20px;
   color: #eeeeee;
 }
@@ -489,7 +489,7 @@ header .navbar-menu .dropdown .show {
     gap: 30px;
   }
   header .navbar-menu .menu-tablet .last-link-tablet {
-    margin-right: 140px;
+    margin-right: 150px;
   }
   header .navbar-menu .menu-tablet li a {
     font-size: 1rem;
@@ -514,6 +514,13 @@ header .navbar-menu .dropdown .show {
   }
   .connect .connect-container .connect-container-btn button {
     width: 100%;
+  }
+  .connect .connect-container .connect-container-btn button .ri-arrow-right-line {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    font-size: 20px;
+    color: #eeeeee;
   }
 }
 .projects-title {
