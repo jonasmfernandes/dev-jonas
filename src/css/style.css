@@ -503,8 +503,8 @@ header .navbar-menu .dropdown .show {
     display: none;
   }
   .hero {
-    padding: 5.2% 6vw 0% 6vw;
-    height: 35vh;
+    padding: 0% 6vw 0% 6vw;
+    height: 30vh;
   }
   .container-photo {
     display: none;
@@ -517,7 +517,7 @@ header .navbar-menu .dropdown .show {
   }
 }
 .projects-title {
-  padding: 5% 6vw 2% 6vw;
+  padding: 2% 6vw 2% 6vw;
   font-family: "Poppins", sans-serif;
   color: #a8a8a8;
   font-weight: 400;
