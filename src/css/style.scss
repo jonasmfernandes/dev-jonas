@@ -134,7 +134,7 @@ header {
 
 .hero {
   background-color: #111111;
-  height: 45vh;
+  height: 40vh;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -188,10 +188,11 @@ header {
 
 .projects-title {
   padding: 0% 2vw 4% 2vw;
+  // background-color: wheat;
   font-family: $secondary-font;
   color: $secondary-color;
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 0.95rem; 
   width: 100%;
   margin-bottom: 10%;
 }
