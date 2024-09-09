@@ -401,7 +401,7 @@ header .navbar-menu .dropdown .show {
 
 .hero-sandbox {
   background-color: #111111;
-  height: 35vh;
+  height: 20em;
   display: flex;
   justify-content: start;
   align-items: center;
