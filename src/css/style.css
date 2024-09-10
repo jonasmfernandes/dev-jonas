@@ -172,7 +172,7 @@ header .navbar-menu .dropdown .show {
   display: flex;
   align-items: center;
   padding: 0% 6vw;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
 .projects p {
   font-family: "Poppins", sans-serif;
@@ -180,7 +180,7 @@ header .navbar-menu .dropdown .show {
   font-weight: 400;
   font-size: 0.95rem;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 .projects .projects-container {
   overflow: scroll;
@@ -571,10 +571,54 @@ header .navbar-menu .dropdown .show {
   margin-bottom: 3%;
 }
 
+.projects {
+  margin-bottom: 2%;
+}
 .projects .projects-container {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+#blogTitle {
+  padding: 2% 6vw 0% 6vw;
+}
+
+.blog {
+  align-items: center;
+  padding: 0% 6vw;
+  margin-bottom: 20%;
+}
+.blog .sandbox-text {
+  color: #5f5f5f;
+}
+.blog .sandbox-text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 93%;
+  margin-bottom: 25px;
+}
+.blog .blog-container .blog-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.blog .blog-container .blog-content img {
+  width: 100px;
+  border-radius: 7px;
+}
+.blog .blog-container .blog-content .blog-text p {
+  color: #a8a8a8;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.blog .blog-container .blog-content .blog-text h3 {
+  padding-top: 6px;
+  color: #eeeeee;
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 93%;
 }
 
 @media (min-width: 1024px) {
