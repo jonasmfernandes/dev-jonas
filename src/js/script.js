@@ -30,6 +30,15 @@ const heroContainer = document.getElementById('heroContainer')
 const btn1 = document.getElementById('btn1')
 const btn2 = document.getElementById('btn2')
 
+const blogTitle = document.getElementById('blogTitle')
+
+const h3Blog1 = document.getElementById('h3Blog1')
+const h3Blog2 = document.getElementById('h3Blog2')
+const h3Blog3 = document.getElementById('h3Blog3')
+
+const pBlog1 = document.getElementById('pBlog1')
+const pBlog2 = document.getElementById('pBlog2')
+const pBlog3 = document.getElementById('pBlog3')
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
     const caret = document.querySelector('.caret')
@@ -100,6 +109,17 @@ changeMode.addEventListener("click", (event) => {
 
       btnContent1.style.color = "#2A2A2A"
       Resume.style.color = "#2A2A2A"
+
+      blogTitle.style.color = "#525252"
+      textSandbox.style.color = "#7A7A7A"
+
+      h3Blog1.style.color = "#2A2A2A"
+      h3Blog2.style.color = "#2A2A2A"
+      h3Blog3.style.color = "#2A2A2A"
+
+      pBlog1.style.color = "#525252"
+      pBlog2.style.color = "#525252"
+      pBlog3.style.color = "#525252"
     } else {
       body.style.backgroundColor = "#111111";
       logo.style.color = "#EEEEEE";
@@ -135,6 +155,18 @@ changeMode.addEventListener("click", (event) => {
 
       btnContent1.style.color = "#EEEEEE"
       Resume.style.color = "#EEEEEE"
+
+      blogTitle.style.color = "#A8A8A8"
+
+      h3Blog1.style.color = "#EEEEEE"
+      h3Blog2.style.color = "#EEEEEE"
+      h3Blog3.style.color = "#EEEEEE"
+
+      textSandbox.style.color = "#5f5f5f"
+
+      pBlog1.style.color = "#a8a8a8"
+      pBlog2.style.color = "#a8a8a8"
+      pBlog3.style.color = "#a8a8a8"
     }
   });
 
@@ -155,6 +187,11 @@ changeTextIcon.addEventListener('click', () => {
         && pBills.innerText === "Spending Analyzer: Simplified and effective financial control."
         && h2Smoke.innerText === "Smoke Tracker"
         && pSmoke.innerText === "Smoking Tracker: Personalized monitoring for changing habits."
+        && blogTitle.innerText === "Latest Blogs"
+        && textSandbox.innerText === "Sometimes i write about programming and productivity. Check me out to stay up to date."
+        && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
+        && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
+        && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
 
     ){
         h2Covid.innerText = "Painel COVID-19"
@@ -172,6 +209,8 @@ changeTextIcon.addEventListener('click', () => {
         pBills.innerText = "Analisador de Gastos: Controle financeiro simplificado e eficaz."
         h2Smoke.innerText = "Rastreador de fumante"
         pSmoke.innerText = "Rastreador de Fumantes: Monitoramento personalizado para mudança de hábitos."
+        blogTitle.innerText = "Últimas postagens"
+        textSandbox.innerText = "Às vezes escrevo sobre programação e produtividade. Confira para se manter atualizado."
     }
     else {
         h2Covid.innerText = "COVID-19 Dashboard"
@@ -189,5 +228,7 @@ changeTextIcon.addEventListener('click', () => {
         pBills.innerText = "Spending Analyzer: Simplified and effective financial control."
         h2Smoke.innerText = "Smoke Tracker"
         pSmoke.innerText = "Smoking Tracker: Personalized monitoring for changing habits."
+        blogTitle.innerText = "Latest Blogs"
+        textSandbox.innerText = "Sometimes i write about programming and productivity. Check me out to stay up to date."
     }
 })
