@@ -187,7 +187,6 @@ header .navbar-menu .dropdown .show {
   overflow-y: hidden;
 }
 .projects .projects-container #billsImg {
-  margin: 0px 10px;
   border-radius: 5px;
 }
 .projects .projects-container .project-content {

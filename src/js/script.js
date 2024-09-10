@@ -192,7 +192,6 @@ changeTextIcon.addEventListener('click', () => {
         && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
         && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
         && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
-
     ){
         h2Covid.innerText = "Painel COVID-19"
         AboutMenuTablet.innerText = "Sobre mim"
