@@ -16,6 +16,9 @@ const blogDpText = document.getElementById('blogDpText')
 const sandboxDpText = document.getElementById('sandboxDpText')
 const aboutSandbox = document.getElementById("aboutSandbox");
 
+// const h2Blog = document.getElementById("h2Blog");
+// const pBlog = document.getElementById("pBlog");
+
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
     const caret = document.querySelector('.caret')
@@ -49,7 +52,7 @@ dropdowns.forEach(dropdown => {
 
 changeTextIcon.addEventListener('click', () => {
     event.preventDefault();
-    if (h2Sandbox.innerText === "Sandbox"
+     if (h2Sandbox.innerText === "Sandbox"
         && AboutMenuTablet.innerText === "About"
         && aboutDpText.innerText === "About"
         && sandboxDpText.innerText === "Sandbox"
@@ -62,6 +65,8 @@ changeTextIcon.addEventListener('click', () => {
         && pCard2.innerText === "A habit tracker, to practice crud and to help my friends."
         && smokingH2.innerText === "Stop Smoking"
         && pCard3.innerText === "A application to users who smokes a lot and wanna to stop."
+        // && h2Blog.innerText === "Blog"
+        // && pBlog.innerText === "3 posts so far. Stay tuned for more!"
     ){
         h2Sandbox.innerText = "Criações"
         AboutMenuTablet.innerText = "Sobre mim"
@@ -77,6 +82,8 @@ changeTextIcon.addEventListener('click', () => {
         pCard2.innerText = "Um rastreador de hábitos, para praticar CRUD e ajudar meus amigos"
         smokingH2.innerText = "Pare de fumar"
         pCard3.innerText = "Uma aplicação para usuários que fumam em excesso e querem parar."
+        // h2Blog.innerText = "Blog"
+        // pBlog.innerText = "3 postagens até agora, fique ligado para mais!"
     }
     else {
         h2Sandbox.innerText = "Sandbox"
@@ -93,6 +100,8 @@ changeTextIcon.addEventListener('click', () => {
         pCard2.innerText = "A habit tracker, to practice crud and to help my friends."
         smokingH2.innerText = "Stop Smoking"
         pCard3.innerText = "A application to users who smokes a lot and wanna to stop."
+        // h2Blog.innerText = "Blog"
+        // pBlog.innerText = "3 posts so far. Stay tuned for more!"
         
     }
 })

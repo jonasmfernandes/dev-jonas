@@ -191,8 +191,8 @@ changeTextIcon.addEventListener('click', () => {
         && blogTitle.innerText === "Latest Blogs"
         && textSandbox.innerText === "Sometimes i write about programming and productivity. Check me out to stay up to date."
         && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
-        && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
-        && h3Blog1.innerText === "TailwindCSS: How to optimize your CSS with fast utilities."
+        && h3Blog2.innerText === "Pomodoro: The productivity technique to improve your daily focus."
+        && h3Blog3.innerText === "Notion: Organize your life and work with digital efficiency."
     ){
         h2Covid.innerText = "Painel COVID-19"
         AboutMenuTablet.innerText = "Sobre mim"
@@ -211,6 +211,10 @@ changeTextIcon.addEventListener('click', () => {
         pSmoke.innerText = "Rastreador de Fumantes: Monitoramento personalizado para mudança de hábitos."
         blogTitle.innerText = "Últimas postagens"
         textSandbox.innerText = "Às vezes escrevo sobre programação e produtividade. Confira para se manter atualizado."
+
+       h3Blog1.innerText = "TailwindCSS: Como otimizar seu CSS com utilitários rápidos."    
+       h3Blog2.innerText = "Pomodoro: A técnica de produtividade para melhorar seu foco diário."
+       h3Blog3.innerText = "Notion: Organize sua vida e trabalho com eficiência digital."
     }
     else {
         h2Covid.innerText = "COVID-19 Dashboard"
@@ -230,5 +234,9 @@ changeTextIcon.addEventListener('click', () => {
         pSmoke.innerText = "Smoking Tracker: Personalized monitoring for changing habits."
         blogTitle.innerText = "Latest Blogs"
         textSandbox.innerText = "Sometimes i write about programming and productivity. Check me out to stay up to date."
+
+        h3Blog1.innerText = "TailwindCSS: How to optimize your CSS with fast utilities."
+        h3Blog2.innerText = "Pomodoro: The productivity technique to improve your daily focus."
+        h3Blog3.innerText = "Notion: Organize your life and work with digital efficiency."
     }
 })
