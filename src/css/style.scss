@@ -559,6 +559,31 @@ header {
     // font-size:;
   }
 }
+
+// BLOG
+
+.hero-blog {
+  background-color: #111111;
+  height: 13em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0% 6vw;
+
+  .hero-container-blog {
+    h2 {
+      color: $main-color;
+      font-size: 1.8rem;
+    }
+    p {
+      font-family: $secondary-font;
+      color: $secondary-color;
+      font-weight: 400;
+      font-size: 0.95rem;
+      width: 100%;
+    }
+  }
+}
 // KEYFRAMES
 
 @keyframes openTransition {
@@ -638,7 +663,7 @@ header {
 
   .hero {
     padding: 0% 6vw 0% 6vw;
-    height: 30vh;
+    height: 20em;
   }
 
   .container-photo {
@@ -743,6 +768,7 @@ header {
 
   .hero {
     padding: 0% 2vw;
+    height: 17em;
   }
 
   .hero-about {
@@ -762,7 +788,7 @@ header {
     padding-right: 0px;
   }
   .ri-earth-fill {
-    padding-left: 28px;
+    padding-left: 24px;
   }
 
   .connect {
@@ -798,6 +824,12 @@ header {
     padding: 0% 2vw;
   }
   .sandbox-things {
+    padding: 0% 2vw;
+  }
+  #blogTitle {
+    padding: 0% 2vw;
+  }
+  .blog {
     padding: 0% 2vw;
   }
 }

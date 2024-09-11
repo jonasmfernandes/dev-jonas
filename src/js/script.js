@@ -39,6 +39,7 @@ const h3Blog3 = document.getElementById('h3Blog3')
 const pBlog1 = document.getElementById('pBlog1')
 const pBlog2 = document.getElementById('pBlog2')
 const pBlog3 = document.getElementById('pBlog3')
+
 dropdowns.forEach(dropdown => {
     const select = document.querySelector('.select')
     const caret = document.querySelector('.caret')
