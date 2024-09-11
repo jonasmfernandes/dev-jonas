@@ -478,6 +478,11 @@ header .navbar-menu .dropdown .show {
   margin-bottom: 15px;
 }
 
+#blogTitles {
+  text-decoration: none;
+  color: #a8a8a8;
+}
+
 .hero-blog {
   background-color: #111111;
   height: 13em;
@@ -578,6 +583,25 @@ header .navbar-menu .dropdown .show {
     top: 38px;
     font-size: 20px;
     color: #eeeeee;
+  }
+  .hero-blog {
+    background-color: #111111;
+    height: 12em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .hero-blog .hero-container-blog h2 {
+    color: #eeeeee;
+    font-size: 1.8rem;
+  }
+  .hero-blog .hero-container-blog p {
+    font-family: "Poppins", sans-serif;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 0.95rem;
+    width: 100%;
   }
 }
 .projects-title {
@@ -698,5 +722,24 @@ header .navbar-menu .dropdown .show {
   }
   .blog {
     padding: 0% 2vw;
+  }
+  .hero-blog {
+    background-color: #111111;
+    height: 13em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0% 2vw;
+  }
+  .hero-blog .hero-container-blog h2 {
+    color: #eeeeee;
+    font-size: 1.8rem;
+  }
+  .hero-blog .hero-container-blog p {
+    font-family: "Poppins", sans-serif;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 0.95rem;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

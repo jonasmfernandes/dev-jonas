@@ -562,6 +562,10 @@ header {
 
 // BLOG
 
+#blogTitles {
+  text-decoration: none;
+  color: #a8a8a8;
+}
 .hero-blog {
   background-color: #111111;
   height: 13em;
@@ -689,6 +693,30 @@ header {
       }
     }
   }
+
+  .hero-blog {
+    background-color: #111111;
+    height: 12em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    // padding: 0% 2vw;
+    padding-bottom: 20px;
+  
+    .hero-container-blog {
+      h2 {
+        color: $main-color;
+        font-size: 1.8rem;
+      }
+      p {
+        font-family: $secondary-font;
+        color: $secondary-color;
+        font-weight: 400;
+        font-size: 0.95rem;
+        width: 100%;
+      }
+    }
+  }
 }
 .projects-title {
   padding: 2% 6vw 2% 6vw;
@@ -755,6 +783,8 @@ header {
       
     }
   }
+
+
 }
 
 
@@ -831,5 +861,28 @@ header {
   }
   .blog {
     padding: 0% 2vw;
+  }
+
+  .hero-blog {
+    background-color: #111111;
+    height: 13em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0% 2vw;
+  
+    .hero-container-blog {
+      h2 {
+        color: $main-color;
+        font-size: 1.8rem;
+      }
+      p {
+        font-family: $secondary-font;
+        color: $secondary-color;
+        font-weight: 400;
+        font-size: 0.95rem;
+        width: 100%;
+      }
+    }
   }
 }
