@@ -415,7 +415,7 @@ header {
         .ri-arrow-right-line {
           position: absolute;
           right: 15px;
-          top: 25px;
+          top: 35%;
           font-size: 20px;
           color: $main-color;
         }
@@ -685,7 +685,7 @@ header {
           .ri-arrow-right-line {
             position: absolute;
             right: 15px;
-            top: 38px;
+            top: 40%;
             font-size: 20px;
             color: $main-color;
           }
@@ -718,6 +718,10 @@ header {
     }
   }
 }
+
+
+
+
 .projects-title {
   padding: 2% 6vw 2% 6vw;
   font-family: $secondary-font;
@@ -830,7 +834,7 @@ header {
           .ri-arrow-right-line {
             position: absolute;
             right: 15px;
-            top: 20px;
+            top: 38%;
             font-size: 20px;
             color: $main-color;
           }
