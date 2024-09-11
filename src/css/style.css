@@ -725,11 +725,12 @@ header .navbar-menu .dropdown .show {
   }
   .hero-blog {
     background-color: #111111;
-    height: 13em;
+    height: 10em;
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 0% 2vw;
+    margin-bottom: 20px;
   }
   .hero-blog .hero-container-blog h2 {
     color: #eeeeee;
