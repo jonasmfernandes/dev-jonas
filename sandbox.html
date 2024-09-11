@@ -12,22 +12,22 @@
   </head>
   <body id="body">
     <header>
-      <h1 class="logo"><a href="index.html">JM</a></h1>
+      <h1 class="logo"><a href="index.html" id="logo">JM</a></h1>
       <nav class="navbar-menu">
 
         <ul class="menu-tablet">
           <li class="first-link-tablet"><a id="AboutMenuTablet" href="about.html">About</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="blog.html" id="aboutBlog">Blog</a></li>
           <li><a href="sandbox.html" class="last-link-tablet" id="aboutSandbox">Sandbox</a></li>
           <!-- <li class="last-link"> <a href="#" >Gear</a></li> -->
           <!-- <li class="active">menu</li> -->
         </ul>
         <a href="" id="Moon"><i class="ri-earth-fill" id="Moons"></i></a>
-        <a id="Moons" href=""><i class="ri-moon-fill"></i></a>
+        <a id="changeMode" href=""><i class="ri-moon-fill"></i></a>
         <!-- <a href=""><i class="ri-menu-fill"></i></a> -->
         <div class="dropdown">
           <div class="select">
-            <span class="selected"><i class="ri-menu-fill"></i></span>
+            <span class="selected"><i id="menu" class="ri-menu-fill"></i></span>
             <div class="caret"></div>
           </div>
 
@@ -42,7 +42,7 @@
       </nav>
     </header>
 
-    <main class="hero-sandbox">
+    <main class="hero-sandbox" id="heroSandbox">
       <div class="hero-container-sandbox">
         <h2 id="h2Sandbox">Sandbox</h2>
         <p id="pSandbox">
@@ -55,7 +55,7 @@
         </div>
     </main>
 
-    <section class="sandbox-things">
+    <section class="sandbox-things" id="sandboxThings">
         <h2 id="cardH2">Card Reveal</h2>
         <p id="pCard1">Framer motion card flip to reveal additional information.</p>
 
