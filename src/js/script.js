@@ -111,7 +111,7 @@ changeMode.addEventListener("click", (event) => {
       btnContent1.style.color = "#2A2A2A"
       Resume.style.color = "#2A2A2A"
 
-      blogTitle.style.color = "#525252"
+      blogTitles.style.color = "#525252"
       textSandbox.style.color = "#7A7A7A"
 
       h3Blog1.style.color = "#2A2A2A"
