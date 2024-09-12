@@ -39,6 +39,7 @@ header .navbar-menu a {
 }
 header .navbar-menu a:hover {
   cursor: pointer;
+  color: #eeeeee;
   transition: 0.2s;
 }
 header .navbar-menu .dropdown {
@@ -144,6 +145,12 @@ header .navbar-menu .dropdown .show {
   display: flex;
   align-items: center;
   text-decoration: none;
+  transition: 0.2s;
+}
+.hero .hero-container .btn-container .btn:hover {
+  background-color: #353535;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 .hero .hero-container .btn-container .btn a {
   text-decoration: none;

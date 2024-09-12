@@ -47,7 +47,7 @@ header {
       transition: 0.2s;
       &:hover {
         cursor: pointer;
-        // color: $main-color;
+        color: $main-color;
         transition: 0.2s;
       }
     }
@@ -168,11 +168,19 @@ header {
         display: flex;
         align-items: center;
         text-decoration: none;
+        transition: 0.2s;
+        &:hover {
+          background-color: #353535;
+          transform: scale(1.1);
+          transition: 0.2s;
+        }
         a {
           // display: flex;
           text-decoration: none;
           color: $main-color;
           font-size: 1rem;
+
+
         }
         i {
           padding-left: 5px;
