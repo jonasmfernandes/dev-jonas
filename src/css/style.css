@@ -131,6 +131,12 @@ header .navbar-menu .dropdown .show {
   font-size: 0.95rem;
   max-width: 520px;
 }
+.hero .hero-container .white-bg:hover {
+  color: red;
+}
+.hero .hero-container .black-bg:hover {
+  color: blue;
+}
 .hero .hero-container .btn-container {
   display: flex;
   gap: 10px;
@@ -202,6 +208,7 @@ header .navbar-menu .dropdown .show {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  cursor: pointer;
 }
 .projects .projects-container .project-content img {
   -o-object-fit: cover;
@@ -244,6 +251,17 @@ header .navbar-menu .dropdown .show {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  transition: 0.2s;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+.blog .blog-container .blog-content:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
 }
 .blog .blog-container .blog-content img {
   width: 100px;

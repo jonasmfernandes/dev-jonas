@@ -155,6 +155,13 @@ header {
       max-width: 520px;
     }
 
+    .white-bg:hover {
+      color: red;
+    }
+
+    .black-bg:hover {
+      color: blue;
+    }
     .btn-container {
       display: flex;
       gap: 10px;
@@ -233,6 +240,7 @@ header {
       display: flex;
       flex-direction: column;
       gap: 12px;
+      cursor: pointer;
       img {
         object-fit: cover;
         border-radius: 5px;
@@ -285,11 +293,26 @@ header {
         }
   }
   .blog-container {
+    
     .blog-content {
       display: flex;
       justify-content: space-between  ;
       align-items: center;
       margin-bottom: 20px;
+      transition: 0.2s;
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0;
+      
+      
+      &:hover {
+        transform: scale(1.050);
+        transition: 0.2s;
+        cursor: pointer;
+        // background-color: #0a0a0a;
+        padding: 5px;
+        border-radius: 10px;
+      }
       img {
         width: 100px;
         border-radius: 7px;

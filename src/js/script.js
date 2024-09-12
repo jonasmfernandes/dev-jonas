@@ -121,10 +121,12 @@ changeMode.addEventListener("click", (event) => {
       pBlog1.style.color = "#525252"
       pBlog2.style.color = "#525252"
       pBlog3.style.color = "#525252"
+      changeMode.classList.add('white-bg')
     } else {
       body.style.backgroundColor = "#111111";
       logo.style.color = "#EEEEEE";
       changeMode.style.color = "#a8a8a8";
+    changeMode.classList.add('black-bg')
       changeTextIcon.style.color = "#a8a8a8";
       menu.style.color = "#a8a8a8";
       AboutMenuTablet.style.color = "#a8a8a8";
