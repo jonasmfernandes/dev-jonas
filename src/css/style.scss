@@ -409,6 +409,7 @@ header {
   .connect-container {
     margin-top: 10%;
     padding: 0% 6vw;
+
     h2 {
       color: $secondary-color;
       font-size: 1rem;
@@ -419,7 +420,14 @@ header {
       display: flex;
       flex-direction: column;
       gap: 20px;
+      
       button {
+        &:hover {
+          transform: scale(1.050);
+          transition: 0.2s;
+          // filter: brightness(120%);
+        }
+        transition: 0.2s;
         animation: appear linear;
         animation-timeline: view();
         animation-range: entry 0;
@@ -492,6 +500,13 @@ header {
     padding: 0% 6vw;
     display: flex;
     gap: 10px;
+    transition: 0.2s;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+      filter: brightness(120%);
+      cursor: pointer;
+    }
     .img-place-b2x {
       width: 50px;
       height: 50px;
@@ -580,9 +595,16 @@ header {
   // align-items: center;
   padding: 0% 6vw;
   gap: 10px;
+ 
   h2 {
     color: #eeeeee;
     font-size: 1rem;
+    transition: 0.2s;
+    &:hover {
+      transform: scale(1.03);
+      transition: 0.2s;
+      cursor: pointer;
+    }
   }
   p {
     color: $secondary-color;
